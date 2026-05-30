@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Send, User, Bot, Loader2 } from "lucide-react";
-import { askMuseumGuide } from "../services/geminiService";
+import { askMuseumGuide } from "../services/openaiService";
 import { motion, AnimatePresence } from "motion/react";
 import { useLanguage } from "../contexts/LanguageContext";
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { VEHICLES } from "../data/vehicles";
-import { compareVehiclesAI } from "../services/geminiService";
+import { compareVehiclesAI } from "../services/openaiService";
 import { Scale, Bot, Loader2, RefreshCcw, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import ReactMarkdown from "react-markdown";

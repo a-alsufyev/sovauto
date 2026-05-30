@@ -1,12 +1,25 @@
-import { GoogleGenAI } from "@google/genai";
+import OpenAI from "openai";
 import { VEHICLES } from "../data/vehicles";
 import { FACTORIES } from "../data/factories";
-import { Vehicle } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+let openaiClient: OpenAI | null = null;
+
+function getOpenAIClient(): OpenAI {
+  if (!openaiClient) {
+    const apiKey = process.env.OPENAI_API_KEY;
+    if (!apiKey) {
+      throw new Error("OPENAI_API_KEY is not defined. Please add it to your secrets on AI Studio.");
+    }
+    openaiClient = new OpenAI({
+      apiKey: apiKey,
+      dangerouslyAllowBrowser: true, // Needed since this runs directly in the client-side SPA
+    });
+  }
+  return openaiClient;
+}
 
 const MUSEUM_GUIDE_PROMPT = (lang: string) => `
-You are the Lead Curator of the Soviet AI Museum, an virtual archive of the Soviet Union's automotive history.
+You are the Lead Curator of the Soviet AI Museum, a virtual archive of the Soviet Union's automotive history.
 Your tone is informative, sophisticated, historically aware, and atmospheric.
 You are an expert on Soviet engineering, car factories like VAZ, GAZ, and the social context of these vehicles.
 
@@ -34,18 +47,26 @@ export async function askMuseumGuide(question: string, contextId?: string, langu
   }
 
   try {
-    const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
-      contents: question,
-      config: {
-        systemInstruction: MUSEUM_GUIDE_PROMPT(language) + "\n" + contextText,
-        temperature: 0.7,
-      }
+    const client = getOpenAIClient();
+    const systemPrompt = MUSEUM_GUIDE_PROMPT(language) + "\n" + contextText;
+
+    const response = await client.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: question }
+      ],
+      temperature: 0.7,
     });
 
-    return response.text || (language === 'ru' ? "Извините, я не нашел ответа в наших архивах." : "I'm sorry, I couldn't find an answer in our archives.");
-  } catch (error) {
-    console.error("Gemini Error:", error);
+    return response.choices[0]?.message?.content || (language === 'ru' ? "Извините, я не нашел ответа в наших архивах." : "I'm sorry, I couldn't find an answer in our archives.");
+  } catch (error: any) {
+    console.error("OpenAI Error:", error);
+    if (!process.env.OPENAI_API_KEY) {
+      return language === 'ru' 
+        ? "Пожалуйста, укажите ваш ключ API OpenAI в настройках (Secrets) или файле .env." 
+        : "Please specify your OpenAI API Key in the settings (Secrets) or the .env file.";
+    }
     return language === 'ru' ? "Гид временно недоступен. Пожалуйста, попробуйте позже." : "The guide is currently unavailable. Please try again later.";
   }
 }
@@ -68,18 +89,26 @@ export async function compareVehiclesAI(id1: string, id2: string, language: 'en'
   4. Conclusion: Which one defined its era more?`;
 
   try {
-    const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
-      contents: prompt,
-      config: {
-        systemInstruction: MUSEUM_GUIDE_PROMPT(language),
-        temperature: 0.8,
-      }
+    const client = getOpenAIClient();
+    const systemPrompt = MUSEUM_GUIDE_PROMPT(language);
+
+    const response = await client.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: prompt }
+      ],
+      temperature: 0.8,
     });
 
-    return response.text || (language === 'ru' ? "Сравнение недоступно." : "Comparison unavailable.");
-  } catch (error) {
-    console.error("Gemini Comparison Error:", error);
+    return response.choices[0]?.message?.content || (language === 'ru' ? "Сравнение недоступно." : "Comparison unavailable.");
+  } catch (error: any) {
+    console.error("OpenAI Comparison Error:", error);
+    if (!process.env.OPENAI_API_KEY) {
+      return language === 'ru' 
+        ? "Пожалуйста, укажите ваш ключ API OpenAI в настройках (Secrets) или файле .env." 
+        : "Please specify your OpenAI API Key in the settings (Secrets) or the .env file.";
+    }
     return language === 'ru' ? "Не удалось выполнить сравнение ИИ в данный момент." : "Unable to perform AI comparison at this time.";
   }
 }
