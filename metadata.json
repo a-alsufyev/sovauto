@@ -1,0 +1,8 @@
+{
+  "name": "Soviet AI Museum",
+  "description": "An AI-powered virtual museum and encyclopedia of Soviet automobiles, featuring interactive historical storytelling, technical specifications, and an intelligent museum guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
