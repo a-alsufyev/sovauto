@@ -7,7 +7,7 @@ import { VEHICLES } from "./src/data/vehicles";
 import { FACTORIES } from "./src/data/factories";
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 5000;
 
 app.use(express.json());
 
