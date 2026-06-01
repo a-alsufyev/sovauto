@@ -11,6 +11,10 @@ const PORT = Number(process.env.PORT) || 5000;
 
 app.use(express.json());
 
+app.get("/debug", (req, res) => {
+  res.json({ ok: true });
+});
+
 let openaiClient: OpenAI | null = null;
 
 function getOpenAIClient(): OpenAI {
