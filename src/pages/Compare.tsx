@@ -5,6 +5,7 @@ import { Scale, Bot, Loader2, RefreshCcw, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import ReactMarkdown from "react-markdown";
 import { useLanguage } from "../contexts/LanguageContext";
+import { VEHICLE_TRANSLATIONS } from "../data/translations_de_es";
 
 export default function Compare() {
   const { language, t } = useLanguage();
@@ -45,12 +46,18 @@ export default function Compare() {
               onChange={(e) => setVehicle1(e.target.value)}
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 focus:outline-none focus:border-gold transition-colors text-sm"
             >
-              <option value="">{language === 'ru' ? 'Выберите автомобиль...' : 'Select a vehicle...'}</option>
-              {VEHICLES.map(v => (
-                <option key={v.id} value={v.id}>
-                  {language === 'ru' ? (v.display_name_ru || v.display_name) : v.display_name} ({v.factory})
-                </option>
-              ))}
+              <option value="">
+                {language === 'ru' ? 'Выберите автомобиль...' : (language === 'de' ? 'Fahrzeug auswählen...' : (language === 'es' ? 'Seleccionar un vehículo...' : 'Select a vehicle...'))}
+              </option>
+              {VEHICLES.map(v => {
+                const trans = (language === 'de' || language === 'es') ? VEHICLE_TRANSLATIONS[v.id]?.[language] : null;
+                const displayName = trans?.display_name || (language === 'ru' ? (v.display_name_ru || v.display_name) : v.display_name);
+                return (
+                  <option key={v.id} value={v.id}>
+                    {displayName} ({v.factory})
+                  </option>
+                );
+              })}
             </select>
           </div>
 
@@ -62,12 +69,18 @@ export default function Compare() {
               onChange={(e) => setVehicle2(e.target.value)}
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 focus:outline-none focus:border-gold transition-colors text-sm"
             >
-              <option value="">{language === 'ru' ? 'Выберите автомобиль...' : 'Select a vehicle...'}</option>
-              {VEHICLES.map(v => (
-                <option key={v.id} value={v.id}>
-                  {language === 'ru' ? (v.display_name_ru || v.display_name) : v.display_name} ({v.factory})
-                </option>
-              ))}
+              <option value="">
+                {language === 'ru' ? 'Выберите автомобиль...' : (language === 'de' ? 'Fahrzeug auswählen...' : (language === 'es' ? 'Seleccionar un vehículo...' : 'Select a vehicle...'))}
+              </option>
+              {VEHICLES.map(v => {
+                const trans = (language === 'de' || language === 'es') ? VEHICLE_TRANSLATIONS[v.id]?.[language] : null;
+                const displayName = trans?.display_name || (language === 'ru' ? (v.display_name_ru || v.display_name) : v.display_name);
+                return (
+                  <option key={v.id} value={v.id}>
+                    {displayName} ({v.factory})
+                  </option>
+                );
+              })}
             </select>
           </div>
         </div>

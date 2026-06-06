@@ -3,6 +3,7 @@ import { Factory } from "../types";
 import { motion } from "motion/react";
 import { MapPin, Calendar } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
+import { FACTORY_TRANSLATIONS } from "../data/translations_de_es";
 
 interface Props {
   factory: Factory;
@@ -10,9 +11,10 @@ interface Props {
 
 export default function FactoryCard({ factory }: Props) {
   const { language, t } = useLanguage();
-  const name = language === 'ru' ? (factory.name_ru || factory.name) : factory.name;
-  const description = language === 'ru' ? (factory.description_ru || factory.description) : factory.description;
-  const city = language === 'ru' ? (factory.city_ru || factory.city) : factory.city;
+  const trans = (language === 'de' || language === 'es') ? FACTORY_TRANSLATIONS[factory.id]?.[language] : null;
+  const name = trans?.name || (language === 'ru' ? (factory.name_ru || factory.name) : factory.name);
+  const description = trans?.description || (language === 'ru' ? (factory.description_ru || factory.description) : factory.description);
+  const city = trans?.city || (language === 'ru' ? (factory.city_ru || factory.city) : factory.city);
 
   return (
     <motion.div

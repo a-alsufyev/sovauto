@@ -3,6 +3,7 @@ import { Vehicle } from "../types";
 import { motion } from "motion/react";
 import { ArrowUpRight, Gauge, Settings } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
+import { VEHICLE_TRANSLATIONS } from "../data/translations_de_es";
 
 interface Props {
   vehicle: Vehicle;
@@ -11,9 +12,10 @@ interface Props {
 export default function VehicleCard({ vehicle }: Props) {
   const { language, t } = useLanguage();
   
-  const displayName = language === 'ru' ? (vehicle.display_name_ru || vehicle.display_name) : vehicle.display_name;
-  const description = language === 'ru' ? (vehicle.description_ru || vehicle.description) : vehicle.description;
-  const bodyType = language === 'ru' ? (vehicle.body_type_ru || vehicle.body_type) : vehicle.body_type;
+  const trans = (language === 'de' || language === 'es') ? VEHICLE_TRANSLATIONS[vehicle.id]?.[language] : null;
+  const displayName = trans?.display_name || (language === 'ru' ? (vehicle.display_name_ru || vehicle.display_name) : vehicle.display_name);
+  const description = trans?.description || (language === 'ru' ? (vehicle.description_ru || vehicle.description) : vehicle.description);
+  const bodyType = trans?.body_type || (language === 'ru' ? (vehicle.body_type_ru || vehicle.body_type) : vehicle.body_type);
 
   return (
     <motion.div

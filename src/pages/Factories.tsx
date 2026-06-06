@@ -14,6 +14,10 @@ export default function Factories() {
           <p className="text-muted font-light text-lg">
             {language === 'ru' 
               ? 'Советская автомобильная промышленность строилась вокруг мощных государственных заводов, каждый из которых имел свою нишу — от роскошных лимузинов до суровых военных внедорожников.'
+              : language === 'de'
+              ? 'Die sowjetische Automobilindustrie war um riesige staatliche Werke herum aufgebaut, von denen jedes seine eigene Nische hatte – von Luxuslimousinen bis hin zu robusten Militär-Geländewagen.'
+              : language === 'es'
+              ? 'La industria automotriz soviética se construyó en torno a enormes plantas estatales, cada una con su propio nicho, desde limusinas de lujo hasta robustos vehículos militares 4x4.'
               : 'The Soviet automotive industry was built around massive state plants, each with its own niche—from luxury limousines to rugged military 4x4s.'}
           </p>
         </header>

@@ -17,9 +17,37 @@ const TIMELINE_EVENTS_RU = [
   { era: "1980-е", title: "Переход к современности", desc: "Лада Самара и Нива открывают миру передний привод и современные концепты 4x4.", icon: "✦" },
 ];
 
+const TIMELINE_EVENTS_DE = [
+  { era: "1940er", title: "Nachkriegserholung", desc: "Schwergewicht ZIS-110 und Pobeda führen den Wiederaufbau des sowjetischen Automobilgeistes an.", icon: "☭" },
+  { era: "1950er", title: "Beginn der Repräsentationsklasse", desc: "Einführung der ikonischen Wolga GAZ-21 und der exklusiven Tschaika.", icon: "★" },
+  { era: "1960er", title: "Kompaktwagen-Revolution", desc: "Der ZAZ-965 'Bucklige' bringt die Motorisierung für die Massen.", icon: "⎈" },
+  { era: "1970er", title: "Die Schiguli-Ära", desc: "VAZ startet die Produktion in Togliatti und prägt das sowjetische Straßenbild mit der 'Klassiker'-Serie.", icon: "⚙" },
+  { era: "1980er", title: "Moderne Transformation", desc: "Lada Samara und Niva stellen der Welt moderne Frontantriebs- und Allradkonzepte vor.", icon: "✦" },
+];
+
+const TIMELINE_EVENTS_ES = [
+  { era: "1940s", title: "Recuperación de posguerra", desc: "El ZIS-110 y el Pobeda lideran la recuperación del espíritu automotriz soviético.", icon: "☭" },
+  { era: "1950s", title: "El amanecer de la clase ejecutiva", desc: "Presentación del icónico Volga GAZ-21 y del exclusivo Chaika.", icon: "★" },
+  { era: "1960s", title: "Revolución de microcoches", desc: "El ZAZ-965 'Jorobado' acerca la motorización a las masas.", icon: "⎈" },
+  { era: "1970s", title: "La era Zhiguli", desc: "VAZ comienza la producción en Tolyatti, definiendo las calles soviéticas con su serie 'Clásica'.", icon: "⚙" },
+  { era: "1980s", title: "Transición moderna", desc: "El Lada Samara y el Niva introducen tracción delantera y tracción 4x4 moderna al mundo.", icon: "✦" },
+];
+
 export default function Timeline() {
   const { language } = useLanguage();
-  const events = language === 'ru' ? TIMELINE_EVENTS_RU : TIMELINE_EVENTS_EN;
+  const getEvents = () => {
+    switch (language) {
+      case 'ru':
+        return TIMELINE_EVENTS_RU;
+      case 'de':
+        return TIMELINE_EVENTS_DE;
+      case 'es':
+        return TIMELINE_EVENTS_ES;
+      default:
+        return TIMELINE_EVENTS_EN;
+    }
+  };
+  const events = getEvents();
 
   return (
     <div className="py-20">

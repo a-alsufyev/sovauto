@@ -30,6 +30,15 @@ function getOpenAIClient(): OpenAI {
   return openaiClient;
 }
 
+const getResponseLanguage = (lang: string) => {
+  switch (lang) {
+    case 'ru': return 'RUSSIAN';
+    case 'de': return 'GERMAN';
+    case 'es': return 'SPANISH';
+    default: return 'ENGLISH';
+  }
+};
+
 const MUSEUM_GUIDE_PROMPT = (lang: string) => `
 You are the Lead Curator of the Soviet AI Museum, a virtual archive of the Soviet Union's automotive history.
 Your tone is informative, sophisticated, historically aware, and atmospheric.
@@ -41,8 +50,53 @@ Strict Rules:
 3. Provide historical context: specify how the car was used (e.g., taxi, official use, export).
 4. Avoid modern political commentary or hallucinations.
 5. Be concise but evocative.
-6. Respond in ${lang === 'ru' ? 'RUSSIAN' : 'ENGLISH'}.
+6. Respond in ${getResponseLanguage(lang)}.
 `;
+
+const getNoAnswerReply = (lang: string) => {
+  switch (lang) {
+    case 'ru': return "Извините, я не нашел ответа.";
+    case 'de': return "Entschuldigung, ich konnte keine Antwort finden.";
+    case 'es': return "Lo siento, no pude encontrar una respuesta.";
+    default: return "I'm sorry, I couldn't find an answer.";
+  }
+};
+
+const getMissingKeyReply = (lang: string) => {
+  switch (lang) {
+    case 'ru': return "Пожалуйста, укажите ваш ключ API OpenAI в настройках (Secrets) или файле .env.";
+    case 'de': return "Bitte geben Sie Ihren OpenAI-API-Schlüssel in den Einstellungen (Secrets) oder der .env-Datei an.";
+    case 'es': return "Por favor, especifique su clave API de OpenAI en la configuración (Secrets) o en el archivo .env.";
+    default: return "Please specify your OpenAI API Key in the settings (Secrets) or the .env file.";
+  }
+};
+
+const getGeneralChatErrorReply = (lang: string) => {
+  switch (lang) {
+    case 'ru': return "Гид временно недоступен. Пожалуйста, попробуйте позже.";
+    case 'de': return "Der Museumsführer ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später noch einmal.";
+    case 'es': return "El guía del museo no está disponible temporalmente. Por favor, inténtelo de nuevo más tarde.";
+    default: return "The guide is currently unavailable. Please try again later.";
+  }
+};
+
+const getGeneralCompareErrorReply = (lang: string) => {
+  switch (lang) {
+    case 'ru': return "Не удалось выполнить сравнение ИИ в данный момент.";
+    case 'de': return "Der KI-Vergleich kann derzeit nicht durchgeführt werden.";
+    case 'es': return "No se pudo realizar la comparación de IA en este momento.";
+    default: return "Unable to perform AI comparison at this time.";
+  }
+};
+
+const getVehiclesNotFoundReply = (lang: string) => {
+  switch (lang) {
+    case 'ru': return "Не удалось найти автомобили для сравнения.";
+    case 'de': return "Fahrzeuge für den Vergleich konnten nicht gefunden werden.";
+    case 'es': return "No se pudieron encontrar los vehículos para comparar.";
+    default: return "Could not find vehicles to compare.";
+  }
+};
 
 // API Endpoints
 app.get("/api/health", (req, res) => {
@@ -76,21 +130,19 @@ app.post("/api/chat", async (req, res) => {
       temperature: 0.7,
     });
 
-    res.json({ reply: response.choices[0]?.message?.content || (language === 'ru' ? "Извините, я не нашел ответа." : "I'm sorry, I couldn't find an answer.") });
+    res.json({ reply: response.choices[0]?.message?.content || getNoAnswerReply(language) });
   } catch (error: any) {
     console.error("Server API Chat Error:", error);
     const hasKey = !!process.env.OPENAI_API_KEY;
     if (!hasKey) {
       res.status(500).json({ 
         error: "Missing API Key", 
-        reply: language === 'ru' 
-          ? "Пожалуйста, укажите ваш ключ API OpenAI в настройках (Secrets) или файле .env." 
-          : "Please specify your OpenAI API Key in the settings (Secrets) or the .env file." 
+        reply: getMissingKeyReply(language)
       });
     } else {
       res.status(500).json({ 
         error: error.message, 
-        reply: language === 'ru' ? "Гид временно недоступен. Пожалуйста, попробуйте позже." : "The guide is currently unavailable. Please try again later." 
+        reply: getGeneralChatErrorReply(language)
       });
     }
   }
@@ -103,7 +155,7 @@ app.post("/api/compare", async (req, res) => {
   const v2 = VEHICLES.find(v => v.id === id2);
 
   if (!v1 || !v2) {
-    return res.status(404).json({ reply: language === 'ru' ? "Не удалось найти автомобили для сравнения." : "Could not find vehicles to compare." });
+    return res.status(404).json({ reply: getVehiclesNotFoundReply(language) });
   }
 
   const prompt = `Compare these two Soviet vehicles side-by-side:
@@ -137,14 +189,12 @@ app.post("/api/compare", async (req, res) => {
     if (!hasKey) {
       res.status(500).json({ 
         error: "Missing API Key", 
-        reply: language === 'ru' 
-          ? "Пожалуйста, укажите ваш ключ API OpenAI в настройках (Secrets) или файле .env." 
-          : "Please specify your OpenAI API Key in the settings (Secrets) or the .env file." 
+        reply: getMissingKeyReply(language)
       });
     } else {
       res.status(500).json({ 
         error: error.message, 
-        reply: language === 'ru' ? "Не удалось выполнить сравнение ИИ в данный момент." : "Unable to perform AI comparison at this time." 
+        reply: getGeneralCompareErrorReply(language)
       });
     }
   }

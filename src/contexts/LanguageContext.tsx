@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-type Language = 'en' | 'ru';
+type Language = 'en' | 'ru' | 'de' | 'es';
 
 interface LanguageContextType {
   language: Language;
@@ -93,6 +93,88 @@ export const translations: Record<Language, Record<string, string>> = {
     'compare.analysis': 'Анализ куратора',
     'compare.primary': 'Главный экспонат',
     'compare.secondary': 'Второй экспонат'
+  },
+  de: {
+    'nav.factories': 'Werke',
+    'nav.collection': 'Sammlung',
+    'nav.compare': 'Vergleich',
+    'nav.museum': 'UdSSR',
+    'app.logo.title': 'Autos der UdSSR',
+    'app.logo.subtitle': '',
+    'hero.title': 'DAS SOWJETISCHE',
+    'hero.subtitle': 'AUTOMUSEUM',
+    'hero.badge': 'Sowjetisches Erbe bewahren',
+    'hero.desc': 'Eine Website über sowjetische Personenkraftwagen von 1945 bis 1991',
+    'hero.btn.enter': 'Sammlung betreten',
+    'hero.btn.compare': 'Modelle vergleichen',
+    'gallery.badge': 'Die Galerie',
+    'gallery.title': 'Ausgewählte Exponate',
+    'gallery.all': 'Gesamte Sammlung',
+    'factories.badge': 'Industriezentren',
+    'factories.title': 'Automobilwerke',
+    'factories.view': 'Werksarchiv anzeigen',
+    'timeline.badge': 'Design-Evolution',
+    'timeline.title': 'Industrielle Zeitleiste',
+    'footer.motto': 'Autos der UdSSR • 1945–1991',
+    'footer.curated': 'Kuriert von AI Studio Gemini • Historisches Archiv 1.0.3',
+    'footer.rights': 'Alle Rechte liegen beim Volk und der Geschichte.',
+    'search.placeholder': 'Nach Name, Tags oder Beschreibung suchen...',
+    'search.all_factories': 'Alle Werke',
+    'search.all_types': 'Alle Typen',
+    'vehicle.engine': 'Motor',
+    'vehicle.power': 'Leistung',
+    'vehicle.body': 'Karosserie',
+    'vehicle.production': 'Produktion',
+    'vehicle.history': 'Historischer Kontext',
+    'vehicle.facts': 'Bekannte Fakten & Kuriositäten',
+    'vehicle.guide': 'Museumsführer',
+    'compare.title': 'Technischer Vergleich',
+    'compare.desc': 'Wählen Sie zwei Fahrzeuge aus unserem Archiv aus, um eine KI-gestützte Analyse und einen historischen Vergleich durchzuführen.',
+    'compare.run': 'KI-Vergleich starten',
+    'compare.analysis': 'Analyse des Kurators',
+    'compare.primary': 'Haupt-Exponat',
+    'compare.secondary': 'Zweit-Exponat'
+  },
+  es: {
+    'nav.factories': 'Fábricas',
+    'nav.collection': 'Colección',
+    'nav.compare': 'Comparar',
+    'nav.museum': 'URSS',
+    'app.logo.title': 'Autos de la URSS',
+    'app.logo.subtitle': '',
+    'hero.title': 'EL MUSEO DE',
+    'hero.subtitle': 'AUTOS SOVIÉTICOS',
+    'hero.badge': 'Preservando el patrimonio soviético',
+    'hero.desc': 'Un sitio web sobre los automóviles de pasajeros soviéticos de 1945 a 1991',
+    'hero.btn.enter': 'Entrar a la colección',
+    'hero.btn.compare': 'Comparar modelos',
+    'gallery.badge': 'La Galería',
+    'gallery.title': 'Exposiciones destacadas',
+    'gallery.all': 'Toda la colección',
+    'factories.badge': 'Centros industriales',
+    'factories.title': 'Fábricas de automóviles',
+    'factories.view': 'Ver archivo de la planta',
+    'timeline.badge': 'Evolución del diseño',
+    'timeline.title': 'Cronología industrial',
+    'footer.motto': 'Autos de la URSS • 1945–1991',
+    'footer.curated': 'Curado por AI Studio Gemini • Archivo histórico 1.0.3',
+    'footer.rights': 'Todos los derechos reservados al Pueblo y a la Historia.',
+    'search.placeholder': 'Buscar por nombre, etiquetas o descripción...',
+    'search.all_factories': 'Todas las fábricas',
+    'search.all_types': 'Todos los tipos',
+    'vehicle.engine': 'Motor',
+    'vehicle.power': 'Potencia',
+    'vehicle.body': 'Carrocería',
+    'vehicle.production': 'Producción',
+    'vehicle.history': 'Contexto histórico',
+    'vehicle.facts': 'Hechos conocidos y curiosidades',
+    'vehicle.guide': 'Guía del museo',
+    'compare.title': 'Confrontación técnica',
+    'compare.desc': 'Selecciona dos vehículos de nuestro archivo para realizar un análisis de IA y una comparación histórica detallada.',
+    'compare.run': 'Iniciar comparación de IA',
+    'compare.analysis': 'Análisis del curador',
+    'compare.primary': 'Exposición principal',
+    'compare.secondary': 'Exposición secundaria'
   }
 };
 
@@ -101,7 +183,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const navigate = useNavigate();
 
   const getInitialLanguage = (): Language => {
-    const match = location.pathname.match(/^\/(en|ru)(\/|$)/);
+    const match = location.pathname.match(/^\/(en|ru|de|es)(\/|$)/);
     if (match) {
       return match[1] as Language;
     }
@@ -111,7 +193,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [language, setLanguageState] = useState<Language>(getInitialLanguage);
 
   useEffect(() => {
-    const match = location.pathname.match(/^\/(en|ru)(\/|$)/);
+    const match = location.pathname.match(/^\/(en|ru|de|es)(\/|$)/);
     if (match) {
       const routeLang = match[1] as Language;
       if (routeLang !== language) {
@@ -129,7 +211,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
   const setLanguage = (newLang: Language) => {
     setLanguageState(newLang);
-    const match = location.pathname.match(/^\/(en|ru)(.*)/);
+    const match = location.pathname.match(/^\/(en|ru|de|es)(.*)/);
     if (match) {
       const remainingPath = match[2];
       navigate({
@@ -151,7 +233,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   };
 
   useEffect(() => {
-    document.title = language === 'ru' ? 'Автомобили СССР' : 'Cars of the USSR';
+    const titles_map = {
+      ru: 'Автомобили СССР',
+      de: 'Autos der UdSSR',
+      es: 'Autos de la URSS',
+      en: 'Cars of the USSR'
+    };
+    document.title = titles_map[language] || 'Cars of the USSR';
   }, [language]);
 
   return (

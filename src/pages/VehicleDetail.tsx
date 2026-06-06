@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { Gauge, Settings, Calendar, Info, Share2, Printer, ChevronLeft, Layers } from "lucide-react";
 import ChatInterface from "../components/ChatInterface";
 import { useLanguage } from "../contexts/LanguageContext";
+import { VEHICLE_TRANSLATIONS } from "../data/translations_de_es";
 
 export default function VehicleDetail() {
   const { id } = useParams();
@@ -13,17 +14,75 @@ export default function VehicleDetail() {
   if (!vehicle) {
     return (
       <div className="pt-32 text-center h-screen flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-display mb-4">{language === 'ru' ? 'Экспонат не найден' : 'Exhibit Not Found'}</h1>
-        <Link to={`/${language}/vehicles`} className="text-gold uppercase tracking-widest text-xs">{language === 'ru' ? 'Назад к коллекции' : 'Back to Collection'}</Link>
+        <h1 className="text-4xl font-display mb-4">
+          {language === 'ru' ? 'Экспонат не найден' : (language === 'de' ? 'Exponat nicht gefunden' : (language === 'es' ? 'Exposición no encontrada' : 'Exhibit Not Found'))}
+        </h1>
+        <Link to={`/${language}/vehicles`} className="text-gold uppercase tracking-widest text-xs">
+          {language === 'ru' ? 'Назад к коллекции' : (language === 'de' ? 'Zurück zur Sammlung' : (language === 'es' ? 'Volver a la colección' : 'Back to Collection'))}
+        </Link>
       </div>
     );
   }
 
-  const displayName = language === 'ru' ? (vehicle.display_name_ru || vehicle.display_name) : vehicle.display_name;
-  const description = language === 'ru' ? (vehicle.description_ru || vehicle.description) : vehicle.description;
-  const bodyType = language === 'ru' ? (vehicle.body_type_ru || vehicle.body_type) : vehicle.body_type;
-  const classLabel = language === 'ru' ? (vehicle.class_ru || vehicle.class) : vehicle.class;
-  const facts = language === 'ru' ? (vehicle.facts_ru || vehicle.facts) : vehicle.facts;
+  const trans = (language === 'de' || language === 'es') ? VEHICLE_TRANSLATIONS[vehicle.id]?.[language] : null;
+  const displayName = trans?.display_name || (language === 'ru' ? (vehicle.display_name_ru || vehicle.display_name) : vehicle.display_name);
+  const description = trans?.description || (language === 'ru' ? (vehicle.description_ru || vehicle.description) : vehicle.description);
+  const bodyType = trans?.body_type || (language === 'ru' ? (vehicle.body_type_ru || vehicle.body_type) : vehicle.body_type);
+  const classLabel = trans?.class || (language === 'ru' ? (vehicle.class_ru || vehicle.class) : vehicle.class);
+  const facts = trans?.facts || (language === 'ru' ? (vehicle.facts_ru || vehicle.facts) : vehicle.facts);
+
+  const getHpLabel = (lang: string) => {
+    switch(lang) {
+      case 'ru': return 'л.с.';
+      case 'de': return 'PS';
+      case 'es': return 'CV';
+      default: return 'HP';
+    }
+  };
+
+  const getPresentLabel = (lang: string) => {
+    switch(lang) {
+      case 'ru': return 'Н.В.';
+      case 'de': return 'Heute';
+      case 'es': return 'Pres.';
+      default: return 'Now';
+    }
+  };
+
+  const getInitialMessage = (lang: string, nameText: string) => {
+    switch(lang) {
+      case 'ru':
+        return `Я стою рядом с ${nameText}. Что бы вы хотели узнать об истории, инженерии или роли этого автомобиля в советской жизни?`;
+      case 'de':
+        return `Ich stehe neben dem ${nameText}. Was möchten Sie über die Geschichte, Technik oder die Rolle dieses Autos im sowjetischen Leben erfahren?`;
+      case 'es':
+        return `Estoy junto al ${nameText}. ¿Qué le gustaría saber sobre la historia, ingeniería o el papel de este automóvil en la vida soviética?`;
+      default:
+        return `I am standing with the ${nameText}. What would you like to know about its history, engineering, or role in Soviet life?`;
+    }
+  };
+
+  const getPreservationTitle = (lang: string) => {
+    switch(lang) {
+      case 'ru': return 'Примечание';
+      case 'de': return 'Konservierungshinweis';
+      case 'es': return 'Nota de preservación';
+      default: return 'Preservation Note';
+    }
+  };
+
+  const getPreservationText = (lang: string) => {
+    switch(lang) {
+      case 'ru':
+        return 'Все характеристики основаны на официальных документах ГАИ и заводских чертежах той эпохи. Возможны отклонения из-за особенностей производства в разных регионах СССР.';
+      case 'de':
+        return 'Alle technischen Daten basieren auf offiziellen sowjetischen Dokumenten und Werksunterlagen jener Epoche. Aufgrund lokaler Produktionsunterschiede in der UdSSR können Abweichungen auftreten.';
+      case 'es':
+        return 'Todas las especificaciones se basan en documentos oficiales e instrucciones de fábrica de la época. Pueden existir variaciones debido a diferencias de producción locales en la URSS.';
+      default:
+        return 'All specifications are based on official GAII documents and factory blue-prints from the era. Some variations may exist due to local production differences across the USSR.';
+    }
+  };
 
   return (
     <div className="pt-20">
@@ -40,7 +99,7 @@ export default function VehicleDetail() {
 
         <div className="container mx-auto px-4 relative z-10 pb-12">
           <Link to={`/${language}/vehicles`} className="inline-flex items-center gap-2 text-muted hover:text-white transition-colors text-xs uppercase tracking-widest mb-8">
-            <ChevronLeft size={14} /> {language === 'ru' ? 'Назад к архивам' : 'Back to Archives'}
+            <ChevronLeft size={14} /> {language === 'ru' ? 'Назад к архивам' : (language === 'de' ? 'Zurück zum Archiv' : (language === 'es' ? 'Volver al archivo' : 'Back to Archives'))}
           </Link>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             <div>
@@ -81,9 +140,9 @@ export default function VehicleDetail() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[
                   { label: t('vehicle.engine'), value: vehicle.engine[0], icon: Settings },
-                  { label: t('vehicle.power'), value: `${vehicle.power_hp[0]} ${language === 'ru' ? 'л.с.' : 'HP'}`, icon: Gauge },
+                  { label: t('vehicle.power'), value: `${vehicle.power_hp[0]} ${getHpLabel(language)}`, icon: Gauge },
                   { label: t('vehicle.body'), value: bodyType, icon: Layers },
-                  { label: t('vehicle.production'), value: `${vehicle.years.start}–${vehicle.years.end || (language === 'ru' ? 'Н.В.' : 'Now')}`, icon: Calendar },
+                  { label: t('vehicle.production'), value: `${vehicle.years.start}–${vehicle.years.end || getPresentLabel(language)}`, icon: Calendar },
                 ].map((stat, i) => (
                   <div key={i} className="bg-paper p-6 border border-white/5 rounded-xl">
                     <stat.icon size={16} className="text-gold mb-4" />
@@ -106,7 +165,7 @@ export default function VehicleDetail() {
               </div>
               
               <div className="flex flex-wrap gap-2">
-                {(language === 'ru' && vehicle.tags_ru ? vehicle.tags_ru : vehicle.tags).map(tag => (
+                {(trans?.tags || (language === 'ru' && vehicle.tags_ru ? vehicle.tags_ru : vehicle.tags)).map(tag => (
                   <span key={tag} className="px-3 py-1 bg-paper border border-white/10 rounded-full text-[10px] uppercase font-mono text-muted tracking-widest hover:text-gold hover:border-gold transition-all cursor-default">
                     #{tag}
                   </span>
@@ -121,16 +180,14 @@ export default function VehicleDetail() {
                   <h3 className="text-xs uppercase tracking-[0.3em] text-gold font-bold mb-6">{t('vehicle.guide')}</h3>
                   <ChatInterface 
                     contextId={vehicle.id} 
-                    initialMessage={language === 'ru' ? `Я стою рядом с ${displayName}. Что бы вы хотели узнать об истории, инженерии или роли этого автомобиля в советской жизни?` : `I am standing with the ${displayName}. What would you like to know about its history, engineering, or role in Soviet life?`}
+                    initialMessage={getInitialMessage(language, displayName)}
                   />
                 </div>
                 
                 <div className="bg-accent/10 border border-accent/20 p-6 rounded-2xl">
-                  <h4 className="text-[10px] font-bold uppercase tracking-widest text-accent mb-2">{language === 'ru' ? 'Примечание' : 'Preservation Note'}</h4>
+                  <h4 className="text-[10px] font-bold uppercase tracking-widest text-accent mb-2">{getPreservationTitle(language)}</h4>
                   <p className="text-xs text-muted leading-relaxed italic">
-                    {language === 'ru' 
-                      ? 'Все характеристики основаны на официальных документах ГАИ и заводских чертежах той эпохи. Возможны отклонения из-за особенностей производства в разных регионах СССР.'
-                      : 'All specifications are based on official GAII documents and factory blue-prints from the era. Some variations may exist due to local production differences across the USSR.'}
+                    {getPreservationText(language)}
                   </p>
                 </div>
               </div>
