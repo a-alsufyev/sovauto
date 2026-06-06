@@ -118,7 +118,7 @@ export const VAZ_VEHICLES: Vehicle[] = [
     model: "VAZ-2106",
     display_name: "VAZ-2106",
     display_name_ru: "ВАЗ-2106",
-    years: { start: 1976, end: null },
+    years: { start: 1976, end: 2002 },
     body_type: "sedan",
     body_type_ru: "седан",
     class: "compact executive",
