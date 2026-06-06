@@ -17,7 +17,7 @@ export default function FactoryDetail() {
     return (
       <div className="pt-32 text-center">
         <h1 className="text-4xl font-display mb-4">{language === 'ru' ? 'Архив завода не найден' : 'Plant Archive Not Found'}</h1>
-        <Link to="/factories" className="text-gold uppercase tracking-widest text-xs">{language === 'ru' ? 'К списку заводов' : 'Back to Factories'}</Link>
+        <Link to={`/${language}/factories`} className="text-gold uppercase tracking-widest text-xs">{language === 'ru' ? 'К списку заводов' : 'Back to Factories'}</Link>
       </div>
     );
   }
@@ -35,7 +35,7 @@ export default function FactoryDetail() {
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <Link to="/factories" className="inline-flex items-center gap-2 text-muted hover:text-white transition-colors text-xs uppercase tracking-widest mb-12">
+          <Link to={`/${language}/factories`} className="inline-flex items-center gap-2 text-muted hover:text-white transition-colors text-xs uppercase tracking-widest mb-12">
             <ArrowLeft size={14} /> {language === 'ru' ? 'Индустриальная карта' : 'Industrial Map'}
           </Link>
           

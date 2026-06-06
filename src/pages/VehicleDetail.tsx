@@ -14,7 +14,7 @@ export default function VehicleDetail() {
     return (
       <div className="pt-32 text-center h-screen flex flex-col items-center justify-center">
         <h1 className="text-4xl font-display mb-4">{language === 'ru' ? 'Экспонат не найден' : 'Exhibit Not Found'}</h1>
-        <Link to="/vehicles" className="text-gold uppercase tracking-widest text-xs">{language === 'ru' ? 'Назад к коллекции' : 'Back to Collection'}</Link>
+        <Link to={`/${language}/vehicles`} className="text-gold uppercase tracking-widest text-xs">{language === 'ru' ? 'Назад к коллекции' : 'Back to Collection'}</Link>
       </div>
     );
   }
@@ -39,7 +39,7 @@ export default function VehicleDetail() {
         </div>
 
         <div className="container mx-auto px-4 relative z-10 pb-12">
-          <Link to="/vehicles" className="inline-flex items-center gap-2 text-muted hover:text-white transition-colors text-xs uppercase tracking-widest mb-8">
+          <Link to={`/${language}/vehicles`} className="inline-flex items-center gap-2 text-muted hover:text-white transition-colors text-xs uppercase tracking-widest mb-8">
             <ChevronLeft size={14} /> {language === 'ru' ? 'Назад к архивам' : 'Back to Archives'}
           </Link>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">

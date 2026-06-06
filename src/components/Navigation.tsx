@@ -12,20 +12,19 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-40 border-b border-white/5 bg-bg/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to={`/${language}`} className="flex items-center gap-3 group">
             <div className="w-10 h-10 bg-accent rounded-sm flex items-center justify-center group-hover:scale-110 transition-transform">
               <Landmark className="text-white w-6 h-6" />
             </div>
             <div>
-              <span className="font-display text-xl font-bold tracking-tight block leading-none">{t('hero.title')} {language === 'ru' ? 'ИИ' : 'AI'}</span>
-              <span className="text-[10px] uppercase tracking-[0.2em] text-muted block">{t('nav.museum')}</span>
+              <span className="font-display text-xl font-bold tracking-tight block leading-none whitespace-nowrap">{t('app.logo.title')}</span>
             </div>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/factories" className="text-sm uppercase tracking-widest text-muted hover:text-gold transition-colors">{t('nav.factories')}</Link>
-            <Link to="/vehicles" className="text-sm uppercase tracking-widest text-muted hover:text-gold transition-colors">{t('nav.collection')}</Link>
-            <Link to="/compare" className="text-sm uppercase tracking-widest text-muted hover:text-gold transition-colors">{t('nav.compare')}</Link>
+            <Link to={`/${language}/factories`} className="text-sm uppercase tracking-widest text-muted hover:text-gold transition-colors">{t('nav.factories')}</Link>
+            <Link to={`/${language}/vehicles`} className="text-sm uppercase tracking-widest text-muted hover:text-gold transition-colors">{t('nav.collection')}</Link>
+            <Link to={`/${language}/compare`} className="text-sm uppercase tracking-widest text-muted hover:text-gold transition-colors">{t('nav.compare')}</Link>
             
             <div className="h-4 w-[1px] bg-white/10" />
             
@@ -59,9 +58,9 @@ export default function Navigation() {
             exit={{ opacity: 0, y: -20 }}
             className="md:hidden bg-paper border-b border-white/5 p-6 space-y-4"
           >
-            <Link to="/factories" className="block text-lg font-display" onClick={() => setIsOpen(false)}>{t('nav.factories')}</Link>
-            <Link to="/vehicles" className="block text-lg font-display" onClick={() => setIsOpen(false)}>{t('nav.collection')}</Link>
-            <Link to="/compare" className="block text-lg font-display" onClick={() => setIsOpen(false)}>{t('nav.compare')}</Link>
+            <Link to={`/${language}/factories`} className="block text-lg font-display" onClick={() => setIsOpen(false)}>{t('nav.factories')}</Link>
+            <Link to={`/${language}/vehicles`} className="block text-lg font-display" onClick={() => setIsOpen(false)}>{t('nav.collection')}</Link>
+            <Link to={`/${language}/compare`} className="block text-lg font-display" onClick={() => setIsOpen(false)}>{t('nav.compare')}</Link>
             <button 
               onClick={() => {
                 setLanguage(language === 'en' ? 'ru' : 'en');

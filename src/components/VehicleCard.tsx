@@ -58,7 +58,7 @@ export default function VehicleCard({ vehicle }: Props) {
           </div>
           
           <Link 
-            to={`/car/${vehicle.id}`}
+            to={`/${language}/car/${vehicle.id}`}
             className="ml-auto w-8 h-8 rounded-full border border-white/10 flex items-center justify-center hover:bg-gold hover:text-bg hover:border-gold transition-all"
           >
             <ArrowUpRight size={14} />

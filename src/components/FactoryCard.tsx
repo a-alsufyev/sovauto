@@ -39,7 +39,7 @@ export default function FactoryCard({ factory }: Props) {
       </div>
 
       <Link 
-        to={`/plant/${factory.id}`}
+        to={`/${language}/plant/${factory.id}`}
         className="mt-8 inline-block text-[10px] font-bold uppercase tracking-[0.2em] text-gold hover:text-white transition-colors"
       >
         {t('factories.view')} →

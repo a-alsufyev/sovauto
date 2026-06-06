@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { motion } from "motion/react";
 import { VEHICLES } from "../data/vehicles";
 import { FACTORIES } from "../data/factories";
@@ -9,8 +10,12 @@ import { Link } from "react-router-dom";
 import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Home() {
-  const { t } = useLanguage();
-  const featuredVehicles = VEHICLES.slice(0, 3);
+  const { language, t } = useLanguage();
+  
+  const featuredVehicles = useMemo(() => {
+    return [...VEHICLES].sort(() => 0.5 - Math.random()).slice(0, 3);
+  }, []);
+
   const featuredFactories = FACTORIES.slice(0, 3);
 
   return (
@@ -27,7 +32,9 @@ export default function Home() {
           >
             <img 
               src="https://images.unsplash.com/photo-1549490349-86431f221c2e?q=80&w=2000&auto=format&fit=crop" 
-              alt="Background" 
+              alt="" 
+              referrerPolicy="no-referrer"
+              onError={(e) => { e.currentTarget.style.display = 'none'; }}
               className="w-full h-full object-cover grayscale"
             />
           </motion.div>
@@ -50,13 +57,13 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link 
-                to="/vehicles"
+                to={`/${language}/vehicles`}
                 className="px-8 py-4 bg-gold text-bg font-bold uppercase text-xs tracking-widest hover:bg-white transition-all flex items-center gap-3 w-full sm:w-auto justify-center"
               >
                 {t('hero.btn.enter')} <ArrowRight size={16} />
               </Link>
               <Link 
-                to="/compare"
+                to={`/${language}/compare`}
                 className="px-8 py-4 bg-paper/50 backdrop-blur-md border border-white/10 text-white font-bold uppercase text-xs tracking-widest hover:bg-white/10 transition-all w-full sm:w-auto justify-center"
               >
                 {t('hero.btn.compare')}
@@ -74,7 +81,7 @@ export default function Home() {
               <span className="text-accent text-[10px] font-bold uppercase tracking-widest mb-2 block">{t('gallery.badge')}</span>
               <h2 className="font-display text-4xl font-bold">{t('gallery.title')}</h2>
             </div>
-            <Link to="/vehicles" className="text-xs uppercase tracking-widest text-gold hover:text-white flex items-center gap-2 group">
+            <Link to={`/${language}/vehicles`} className="text-xs uppercase tracking-widest text-gold hover:text-white flex items-center gap-2 group">
               {t('gallery.all')} <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 type Language = 'en' | 'ru';
 
@@ -15,22 +16,24 @@ export const translations: Record<Language, Record<string, string>> = {
     'nav.factories': 'Factories',
     'nav.collection': 'Collection',
     'nav.compare': 'Compare',
-    'nav.museum': 'Museum & Archive',
+    'nav.museum': 'Cars',
+    'app.logo.title': 'Cars of the USSR',
+    'app.logo.subtitle': '',
     'hero.title': 'THE SOVIET',
-    'hero.subtitle': 'AI MUSEUM',
-    'hero.badge': 'Preserving State Heritage',
-    'hero.desc': 'Explore the engineering marvels of a vanished empire. An intelligent archive for the cars that defined the Eastern Bloc.',
+    'hero.subtitle': 'CARS MUSEUM',
+    'hero.badge': 'Preserving Soviet Heritage',
+    'hero.desc': 'A website about Soviet passenger cars of 1945 - 1991',
     'hero.btn.enter': 'Enter Collection',
     'hero.btn.compare': 'Compare Models',
     'gallery.badge': 'The Gallery',
     'gallery.title': 'Featured Exhibits',
-    'gallery.all': 'Full Inventory',
+    'gallery.all': 'Entire collection',
     'factories.badge': 'Industrial Centers',
-    'factories.title': 'State Manufacturing',
+    'factories.title': 'Automobile factories',
     'factories.view': 'View Plant Archive',
     'timeline.badge': 'Evolution of Design',
     'timeline.title': 'Industrial Timeline',
-    'footer.motto': 'Museum & Archive • 1945–1991',
+    'footer.motto': 'Cars of the USSR • 1945–1991',
     'footer.curated': 'Curated by AI Studio Gemini • Historical Archive 1.0.3',
     'footer.rights': 'All rights reserved to the People and History.',
     'search.placeholder': 'Search by name, tags, or description...',
@@ -54,22 +57,24 @@ export const translations: Record<Language, Record<string, string>> = {
     'nav.factories': 'Заводы',
     'nav.collection': 'Коллекция',
     'nav.compare': 'Сравнение',
-    'nav.museum': 'Музей и Архив',
+    'nav.museum': 'СССР',
+    'app.logo.title': 'Автомобили СССР',
+    'app.logo.subtitle': '',
     'hero.title': 'СОВЕТСКИЙ',
     'hero.subtitle': 'ИИ МУЗЕЙ',
-    'hero.badge': 'Сохранение государственного наследия',
-    'hero.desc': 'Исследуйте инженерные чудеса исчезнувшей империи. Интеллектуальный архив автомобилей, определивших облик Восточного блока.',
+    'hero.badge': 'Сохранение советсктого наследия',
+    'hero.desc': 'Сайт о советских легковых автомобилях 1945 - 1991 годов',
     'hero.btn.enter': 'В Коллекцию',
     'hero.btn.compare': 'Сравнить модели',
     'gallery.badge': 'Галерея',
     'gallery.title': 'Избранные экспонаты',
-    'gallery.all': 'Весь инвентарь',
+    'gallery.all': 'Вся коллекиця',
     'factories.badge': 'Индустриальные центры',
-    'factories.title': 'Государственное производство',
+    'factories.title': 'Автомобильные заводы',
     'factories.view': 'Посмотреть архив завода',
     'timeline.badge': 'Эволюция дизайна',
     'timeline.title': 'Индустриальная хронология',
-    'footer.motto': 'Музей и Архив • 1945–1991',
+    'footer.motto': 'Автомобили СССР • 1945–1991',
     'footer.curated': 'Создано при помощи AI Studio Gemini • Исторический архив 1.0.3',
     'footer.rights': 'Все права принадлежат народу и истории.',
     'search.placeholder': 'Поиск по названию, тегам или описанию...',
@@ -92,11 +97,62 @@ export const translations: Record<Language, Record<string, string>> = {
 };
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const getInitialLanguage = (): Language => {
+    const match = location.pathname.match(/^\/(en|ru)(\/|$)/);
+    if (match) {
+      return match[1] as Language;
+    }
+    return 'ru';
+  };
+
+  const [language, setLanguageState] = useState<Language>(getInitialLanguage);
+
+  useEffect(() => {
+    const match = location.pathname.match(/^\/(en|ru)(\/|$)/);
+    if (match) {
+      const routeLang = match[1] as Language;
+      if (routeLang !== language) {
+        setLanguageState(routeLang);
+      }
+    } else {
+      const targetPath = `/${language}${location.pathname}`;
+      navigate({
+        pathname: targetPath,
+        search: location.search,
+        hash: location.hash
+      }, { replace: true });
+    }
+  }, [location.pathname, language, navigate]);
+
+  const setLanguage = (newLang: Language) => {
+    setLanguageState(newLang);
+    const match = location.pathname.match(/^\/(en|ru)(.*)/);
+    if (match) {
+      const remainingPath = match[2];
+      navigate({
+        pathname: `/${newLang}${remainingPath}`,
+        search: location.search,
+        hash: location.hash
+      }, { replace: false });
+    } else {
+      navigate({
+        pathname: `/${newLang}${location.pathname}`,
+        search: location.search,
+        hash: location.hash
+      }, { replace: false });
+    }
+  };
 
   const t = (key: string) => {
     return translations[language][key] || key;
   };
+
+  useEffect(() => {
+    document.title = language === 'ru' ? 'Автомобили СССР' : 'Cars of the USSR';
+  }, [language]);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>
