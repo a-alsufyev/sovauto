@@ -50,7 +50,16 @@ export default function App() {
             <span className="text-[10px] uppercase tracking-[0.2em] text-muted block">1945–1991</span>
           </div>
           <div className="text-[10px] text-muted uppercase tracking-widest text-center md:text-right">
-            {t('footer.curated')}<br />
+            {t('footer.curated_prefix')}
+            <a 
+              href="https://web-a.ru/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-gold hover:text-white hover:underline transition-colors normal-case"
+            >
+              https://web-a.ru/
+            </a>
+            {t('footer.curated_suffix')}<br />
             {t('footer.rights')}
           </div>
         </div>
