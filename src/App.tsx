@@ -52,12 +52,12 @@ export default function App() {
           <div className="text-[10px] text-muted uppercase tracking-widest text-center md:text-right">
             {t('footer.curated_prefix')}
             <a 
-              href="https://web-a.ru/" 
+              href="https://it-agency.art/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gold hover:text-white hover:underline transition-colors normal-case"
             >
-              https://web-a.ru/
+              https://it-agency.art/
             </a>
             {t('footer.curated_suffix')}<br />
             {t('footer.rights')}
