@@ -1,0 +1,402 @@
+{
+  "gaz12.jpg": {
+    "id": "11gIH_GpMrsMG9SNmI8mcYH5AHVqWXaqq",
+    "distance": 65
+  },
+  "x22gaz12.jpg": {
+    "id": "11gIH_GpMrsMG9SNmI8mcYH5AHVqWXaqq",
+    "distance": 89
+  },
+  "gaz13.jpg": {
+    "id": "1Xfsiv08GHnUTtjpULNE6Gkm48Ur5KQdv",
+    "distance": 65
+  },
+  "x22gaz13.jpg": {
+    "id": "1Xfsiv08GHnUTtjpULNE6Gkm48Ur5KQdv",
+    "distance": 89
+  },
+  "gaz14.jpg": {
+    "id": "1iIPKHIl3a_V1AZFmy3U7-Be7Hd838VnJ",
+    "distance": 65
+  },
+  "x22gaz14.jpg": {
+    "id": "1iIPKHIl3a_V1AZFmy3U7-Be7Hd838VnJ",
+    "distance": 89
+  },
+  "gaz20.jpg": {
+    "id": "1LFMO1orjPh196NVzWwz7sJNK6TqpXbP1",
+    "distance": 65
+  },
+  "x22gaz20.jpg": {
+    "id": "1LFMO1orjPh196NVzWwz7sJNK6TqpXbP1",
+    "distance": 89
+  },
+  "gaz21.jpg": {
+    "id": "1CHpZ_WmTfyw5f00vVj1LXgtWXNWaURCc",
+    "distance": 65
+  },
+  "x22gaz21.jpg": {
+    "id": "1CHpZ_WmTfyw5f00vVj1LXgtWXNWaURCc",
+    "distance": 89
+  },
+  "gaz22.jpg": {
+    "id": "1LoC2iNq7yOF1_nJhlzKOMwjMfhGu2TUS",
+    "distance": 65
+  },
+  "x22gaz22.jpg": {
+    "id": "1LoC2iNq7yOF1_nJhlzKOMwjMfhGu2TUS",
+    "distance": 89
+  },
+  "gaz24.jpg": {
+    "id": "1Mo8EmV4EShiPo-7Ues-n2vvGFvINqD3H",
+    "distance": 65
+  },
+  "x22gaz24.jpg": {
+    "id": "1Mo8EmV4EShiPo-7Ues-n2vvGFvINqD3H",
+    "distance": 89
+  },
+  "gaz69.jpg": {
+    "id": "1FL3vMrcNhUC1ScXubEm3i-dpc_2eux3R",
+    "distance": 65
+  },
+  "x22gaz69.jpg": {
+    "id": "1FL3vMrcNhUC1ScXubEm3i-dpc_2eux3R",
+    "distance": 89
+  },
+  "gaz2402.jpg": {
+    "id": "1Yey5Mj4FSaJ4_tmN-7G8ZUGs-Q7NwWFG",
+    "distance": 65
+  },
+  "x22gaz2402.jpg": {
+    "id": "1Yey5Mj4FSaJ4_tmN-7G8ZUGs-Q7NwWFG",
+    "distance": 89
+  },
+  "gaz3102.jpg": {
+    "id": "14wYfC-WXhW8wK-S_3OFHmg-eZBtF5vyW",
+    "distance": 65
+  },
+  "x22gaz3102.jpg": {
+    "id": "14wYfC-WXhW8wK-S_3OFHmg-eZBtF5vyW",
+    "distance": 89
+  },
+  "izh412.jpg": {
+    "id": "1FySgHEc2ZCwRuPrzndgWszaQHde75Tp_",
+    "distance": 65
+  },
+  "x22izh412.jpg": {
+    "id": "1FySgHEc2ZCwRuPrzndgWszaQHde75Tp_",
+    "distance": 89
+  },
+  "izh2125.jpg": {
+    "id": "1ZCJC6iQu03v2EREh1vXHmfED8a17pkvs",
+    "distance": 65
+  },
+  "x22izh2125.jpg": {
+    "id": "1ZCJC6iQu03v2EREh1vXHmfED8a17pkvs",
+    "distance": 89
+  },
+  "izh2715.jpg": {
+    "id": "1jOFhdFHLyxjTqLwtXUPM34BTV3zpYsYL",
+    "distance": 65
+  },
+  "x22izh2715.jpg": {
+    "id": "1jOFhdFHLyxjTqLwtXUPM34BTV3zpYsYL",
+    "distance": 89
+  },
+  "izh27151.jpg": {
+    "id": "1R_sQMsd_Bl8wynVFo35JChWQwutdmPPN",
+    "distance": 65
+  },
+  "x22izh27151.jpg": {
+    "id": "1R_sQMsd_Bl8wynVFo35JChWQwutdmPPN",
+    "distance": 89
+  },
+  "izh27156.jpg": {
+    "id": "1CNb9SzmWmHJkDwkwlK-NkJoRPf8TXRaZ",
+    "distance": 65
+  },
+  "x22izh27156.jpg": {
+    "id": "1CNb9SzmWmHJkDwkwlK-NkJoRPf8TXRaZ",
+    "distance": 89
+  },
+  "moskvich400_1.jpg": {
+    "id": "1Jcqd3y2MhmW8EIjDFpF_mw-z5sKu0y02",
+    "distance": 65
+  },
+  "x22moskvich400_1.jpg": {
+    "id": "1Jcqd3y2MhmW8EIjDFpF_mw-z5sKu0y02",
+    "distance": 89
+  },
+  "moskvich401.jpg": {
+    "id": "1ONSkijSJOqJE5y0nA-nRhEF1NMmvfgZG",
+    "distance": 65
+  },
+  "x22moskvich401.jpg": {
+    "id": "1ONSkijSJOqJE5y0nA-nRhEF1NMmvfgZG",
+    "distance": 89
+  },
+  "moskvich402.jpg": {
+    "id": "1-NtYUG306oYku3tVR_0vSR7I-eN50nvu",
+    "distance": 65
+  },
+  "x22moskvich402.jpg": {
+    "id": "1-NtYUG306oYku3tVR_0vSR7I-eN50nvu",
+    "distance": 89
+  },
+  "moskvich403.jpg": {
+    "id": "16Or2bPr8jPIxC98V6PAiwzAmygHHy6z4",
+    "distance": 65
+  },
+  "x22moskvich403.jpg": {
+    "id": "16Or2bPr8jPIxC98V6PAiwzAmygHHy6z4",
+    "distance": 89
+  },
+  "moskvich407.jpg": {
+    "id": "1E7QnF1qgMYgXqh-60nRkWd646k9hNdbn",
+    "distance": 65
+  },
+  "x22moskvich407.jpg": {
+    "id": "1E7QnF1qgMYgXqh-60nRkWd646k9hNdbn",
+    "distance": 89
+  },
+  "moskvich408.jpg": {
+    "id": "1N4w2D9JrNmjhc1kzrYxP1OeYLAstTZxO",
+    "distance": 65
+  },
+  "x22moskvich408.jpg": {
+    "id": "1N4w2D9JrNmjhc1kzrYxP1OeYLAstTZxO",
+    "distance": 89
+  },
+  "moskvich410.jpg": {
+    "id": "1exA-dXAvB6YwaBrlPN2fK175GFKj66y6",
+    "distance": 65
+  },
+  "x22moskvich410.jpg": {
+    "id": "1exA-dXAvB6YwaBrlPN2fK175GFKj66y6",
+    "distance": 89
+  },
+  "moskvich412.jpg": {
+    "id": "1XUGbCQrQWhdewWdYZoV5KoubrMe194_s",
+    "distance": 65
+  },
+  "x22moskvich412.jpg": {
+    "id": "1XUGbCQrQWhdewWdYZoV5KoubrMe194_s",
+    "distance": 89
+  },
+  "moskvich423.jpg": {
+    "id": "1xbEb4Zew2fHn10JR216sn77gIwz3N4iS",
+    "distance": 65
+  },
+  "x22moskvich423.jpg": {
+    "id": "1xbEb4Zew2fHn10JR216sn77gIwz3N4iS",
+    "distance": 89
+  },
+  "moskvich426.jpg": {
+    "id": "1QzfFL9RHcowLRj3QdztjryRyMf5qGM5b",
+    "distance": 65
+  },
+  "x22moskvich426.jpg": {
+    "id": "1QzfFL9RHcowLRj3QdztjryRyMf5qGM5b",
+    "distance": 89
+  },
+  "moskvich427.jpg": {
+    "id": "1S3B8yzlHcnGtXtn39547qfAH0F77RxON",
+    "distance": 65
+  },
+  "x22moskvich427.jpg": {
+    "id": "1S3B8yzlHcnGtXtn39547qfAH0F77RxON",
+    "distance": 89
+  },
+  "moskvich433.jpg": {
+    "id": "14Jp6IrVt6P6M3bSEyA4CKhsuekjzB_um",
+    "distance": 65
+  },
+  "x22moskvich433.jpg": {
+    "id": "14Jp6IrVt6P6M3bSEyA4CKhsuekjzB_um",
+    "distance": 89
+  },
+  "moskvich434.jpg": {
+    "id": "1ScN8afj3VcxdXnCWNLwLlO63ysx7jrPA",
+    "distance": 65
+  },
+  "x22moskvich434.jpg": {
+    "id": "1ScN8afj3VcxdXnCWNLwLlO63ysx7jrPA",
+    "distance": 89
+  },
+  "moskvich2137.jpg": {
+    "id": "1msFNiG3XbZS8yuP3wub69jsX1aQQh6ev",
+    "distance": 65
+  },
+  "x22moskvich2137.jpg": {
+    "id": "1msFNiG3XbZS8yuP3wub69jsX1aQQh6ev",
+    "distance": 89
+  },
+  "moskvich2138.jpg": {
+    "id": "1c4LAn3QJAo7rYyEo3GoSzuMrKH90o2N_",
+    "distance": 65
+  },
+  "x22moskvich2138.jpg": {
+    "id": "1c4LAn3QJAo7rYyEo3GoSzuMrKH90o2N_",
+    "distance": 89
+  },
+  "moskvich2140.jpg": {
+    "id": "11kZT0t_nZy4_oGfJQks_yngxugRf3CPm",
+    "distance": 65
+  },
+  "x22moskvich2140.jpg": {
+    "id": "11kZT0t_nZy4_oGfJQks_yngxugRf3CPm",
+    "distance": 89
+  },
+  "moskvich2141.jpg": {
+    "id": "1mvGoDj2CX22140ioWtwpbAt_q49vXSCP",
+    "distance": 65
+  },
+  "x22moskvich2141.jpg": {
+    "id": "1mvGoDj2CX22140ioWtwpbAt_q49vXSCP",
+    "distance": 89
+  },
+  "moskvich2315.jpg": {
+    "id": "1luyfeRpeTE7dRScq9leuVXU3IGH1YUer",
+    "distance": 65
+  },
+  "x22moskvich2315.jpg": {
+    "id": "1luyfeRpeTE7dRScq9leuVXU3IGH1YUer",
+    "distance": 89
+  },
+  "moskvich2733.jpg": {
+    "id": "1OAAYrAahqrpzHDcFlYi7g6-gOESqJilD",
+    "distance": 65
+  },
+  "x22moskvich2733.jpg": {
+    "id": "1OAAYrAahqrpzHDcFlYi7g6-gOESqJilD",
+    "distance": 89
+  },
+  "moskvich2734.jpg": {
+    "id": "1l3H4oUq29RN_V0qRqNTJ2eewCPY_2wYg",
+    "distance": 65
+  },
+  "x22moskvich2734.jpg": {
+    "id": "1l3H4oUq29RN_V0qRqNTJ2eewCPY_2wYg",
+    "distance": 89
+  },
+  "uaz469.jpg": {
+    "id": "1R9HyrzNAP5dR_dKOILJY9Z47OV5OPhpj",
+    "distance": 65
+  },
+  "x22uaz469.jpg": {
+    "id": "1R9HyrzNAP5dR_dKOILJY9Z47OV5OPhpj",
+    "distance": 89
+  },
+  "vaz1111.jpg": {
+    "id": "1Mh1hccPhvhdDfKMmbspwZ02Kyg5HXy4w",
+    "distance": 65
+  },
+  "x22vaz1111.jpg": {
+    "id": "1Mh1hccPhvhdDfKMmbspwZ02Kyg5HXy4w",
+    "distance": 89
+  },
+  "vaz2101.jpg": {
+    "id": "14oJ_67SPjQ-0jXHvXWIxe2Y9p2IW1JRq",
+    "distance": 65
+  },
+  "x22vaz2101.jpg": {
+    "id": "14oJ_67SPjQ-0jXHvXWIxe2Y9p2IW1JRq",
+    "distance": 89
+  },
+  "vaz2102.jpg": {
+    "id": "1OUCWjIzrRW_CqIebySBCS4RdkP8fgwgl",
+    "distance": 65
+  },
+  "x22vaz2102.jpg": {
+    "id": "1OUCWjIzrRW_CqIebySBCS4RdkP8fgwgl",
+    "distance": 89
+  },
+  "vaz2103.jpg": {
+    "id": "1EZ8n9Z9dKKRPW434I62CdOJiDDW4o23m",
+    "distance": 65
+  },
+  "x22vaz2103.jpg": {
+    "id": "1EZ8n9Z9dKKRPW434I62CdOJiDDW4o23m",
+    "distance": 89
+  },
+  "vaz2104.jpg": {
+    "id": "1Jf24bafo5pKM0oSyQon7QEj6be1obTxK",
+    "distance": 65
+  },
+  "x22vaz2104.jpg": {
+    "id": "1Jf24bafo5pKM0oSyQon7QEj6be1obTxK",
+    "distance": 89
+  },
+  "vaz2105.jpg": {
+    "id": "1Luh7GS-4GkVzAUtYbIV_PLbowfUG4OGY",
+    "distance": 65
+  },
+  "x22vaz2105.jpg": {
+    "id": "1Luh7GS-4GkVzAUtYbIV_PLbowfUG4OGY",
+    "distance": 89
+  },
+  "vaz2106.jpg": {
+    "id": "14WDlYsP1aTa5URPj5sHNFBV1RAN_vTlO",
+    "distance": 65
+  },
+  "x22vaz2106.jpg": {
+    "id": "14WDlYsP1aTa5URPj5sHNFBV1RAN_vTlO",
+    "distance": 89
+  },
+  "vaz2107.jpg": {
+    "id": "1C7EYMdqlyExLWRjYcsEdWx7XkH8tv-69",
+    "distance": 65
+  },
+  "x22vaz2107.jpg": {
+    "id": "1C7EYMdqlyExLWRjYcsEdWx7XkH8tv-69",
+    "distance": 89
+  },
+  "vaz2108.jpg": {
+    "id": "1WXrzvYvCyTcqzLrhgJiaroyXoNBZKfJE",
+    "distance": 65
+  },
+  "x22vaz2108.jpg": {
+    "id": "1WXrzvYvCyTcqzLrhgJiaroyXoNBZKfJE",
+    "distance": 89
+  },
+  "vaz2109.jpg": {
+    "id": "1Haw-0c24vsFbJTQN2TNYphagV2kgjlpV",
+    "distance": 65
+  },
+  "x22vaz2109.jpg": {
+    "id": "1Haw-0c24vsFbJTQN2TNYphagV2kgjlpV",
+    "distance": 89
+  },
+  "vaz2121.jpg": {
+    "id": "1r2Cpxk8aspP4RGau_fqYoASEmgkz_EBU",
+    "distance": 65
+  },
+  "x22vaz2121.jpg": {
+    "id": "1r2Cpxk8aspP4RGau_fqYoASEmgkz_EBU",
+    "distance": 89
+  },
+  "vaz21099.jpg": {
+    "id": "1QVqfT4mbkO7LYemlBRPBsYTEvy4g5WRI",
+    "distance": 65
+  },
+  "x22vaz21099.jpg": {
+    "id": "1QVqfT4mbkO7LYemlBRPBsYTEvy4g5WRI",
+    "distance": 89
+  },
+  "zaz965.jpg": {
+    "id": "1WA9s_jE6CKWm9DEw8vuQpKQIXJI2Si5Q",
+    "distance": 65
+  },
+  "x22zaz965.jpg": {
+    "id": "1WA9s_jE6CKWm9DEw8vuQpKQIXJI2Si5Q",
+    "distance": 89
+  },
+  "zaz966.jpg": {
+    "id": "1PqpdDh0uIPZz0lroL86Qdrs1L-d9432M",
+    "distance": 65
+  },
+  "x22zaz966.jpg": {
+    "id": "1PqpdDh0uIPZz0lroL86Qdrs1L-d9432M",
+    "distance": 89
+  }
+}
