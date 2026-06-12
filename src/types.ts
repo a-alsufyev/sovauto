@@ -22,6 +22,8 @@ export interface Vehicle {
   power_hp: number[];
   description: string;
   description_ru?: string;
+  extended_description?: string;
+  extended_description_ru?: string;
   facts: string[];
   facts_ru?: string[];
   tags: string[];
