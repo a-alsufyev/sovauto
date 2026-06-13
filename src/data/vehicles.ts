@@ -1028,13 +1028,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "First post-war Moskvich passenger car.",
     "description_ru": "Первый послевоенный легковой автомобиль «Москвич».",
+    "extended_description": "The Moskvich-400 is a classic Soviet small-class passenger-car sedan. Mass-produced at the Moscow Compact Car Plant (MZMA, later AZLK) from 1946 to 1954, it represents the foundational milestone of post-WWII Soviet passenger motoring. It was heavily based on the pre-war German Opel Kadett K38, which had been produced in Germany from 1937 to 1940.\\n\\nFollowing the victory in World War II, the Soviet Union relocated the production assets and engineering blueprints of the Opel factory in Rüsselsheim, Germany, to Moscow as part of post-war reparations. While most of the mechanical engineering systems and body framing was systematically adapted from Opel, MZMA engineers independently designed the metal stamping dies for the doors.\\n\\nAccording to a widely celebrated legend, Josef Stalin personally dictated that the car be produced with a four-door cabin layout instead of Opel's two-door setup. When Stalin sat in the front passenger seat during a high-stakes prototype demonstration, he turned to MZMA director Vasily Takhtarov and jokingly invited him to sit in the back. With no safe way to ask the leader to temporarily step out so the front seat could fold, Takhtarov froze in silent terror. Stalin, finding humor in the situation, carefully squeezed his way out and dryly remarked: 'Make sure it is convenient for people.' This prompted an immediate engineering pivot to a four-door design.\\n\\nDespite its pre-war design roots, the Opel-based chassis was robust and modern for its time, incorporating an all-steel unibody monocoque, Dubonnet-type independent front wheel suspension, and a reliable hydraulic braking circuit. Its 1074 cc four-cylinder side-valve engine ('400' represents specifically the engine index) delivered 23 hp, featuring a 5.8 compression ratio suited for low-octane A-66 fuel. With a dry weight of 855 kg, the car hit a top speed of 90 km/h.\\n\\nThroughout its lifecycle, MZMA introduced several notable variants including the standard 400-420 four-door sedan, the 400-420A four-door cabrio-limousine, and the 400-422 wood-and-metal commercial utility van constructed out of Bakelite-treated plywood to conserve scarce sheet metal. Together with its successor model, the slightly more powerful 401, a total of 247,439 units were manufactured, starting a new era of Soviet automotive history and leaving an enduring legacy among retro restorers and collectors.",
+    "extended_description_ru": "«Москвич-400» — советский легковой автомобиль малого класса с кузовом типа седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА, впоследствии — АЗЛК) с 1946 по 1954 год. Автомобиль представлял собой воссозданный и модернизированный вариант немецкого Opel Kadett K38, выпускавшегося в Германии в 1937–1940 годах.\\n\\nПроизводство началось вскоре после окончания Великой Отечественной войны. «Москвич-400» вошёл в историю как первый действительно массовый легковой автомобиль в СССР, который стал свободно поступать в продажу для индивидуального владения гражданами. Конструкция машины была технически идентична довоенному «Опелю». Всё необходимое производственное оборудование и чертежи были вывезены с завода Opel в Рюссельсхайме в счёт репараций, однако штампы для кузовных панелей боковины и дверей инженерам МЗМА пришлось разрабатывать с нуля самостоятельно.\\n\\nС появлением четырёхдверного кузова связана популярная историческая легенда. Во время государственного показа опытного образца Иосиф Сталин сел на переднее сиденье рядом с водителем и с улыбкой предложил директору завода Василию Тахтарову: «Садись и ты, дорогой». Тот сильно побледнел, ведь машина была двухдверной, и попросить вождя выйти на минутку, чтобы откинуть спинку сиденья, было невозможно. Сталин, оценив ситуацию, с трудом выбрался из тесной кабины и небрежно бросил директору: «Сделай, чтобы людям было удобно», предопределив переход на более практичную четырёхдверную схему.\\n\\nНесмотря на довоенные корни, кузов типа монокок, независимая передняя подвеска типа Дюбонне и гидравлический привод тормозов делали модель передовой для советской индустрии. Нижнеклапанный четырёхцилиндровый двигатель объёмом 1074 куб. см выдавал скромные 23 л.с. при 3600 об/мин. Низкая степень сжатия (5,8) позволяла автомобилю без проблем работать на недефицитном низкооктановом бензине А-66, что было крайне практично в послевоенные годы. При массе 855 кг машина могла разгоняться до 90 км/ч.\\n\\nВ соответствии с заводской номенклатурой индекс «400» относился к модели двигателя, а первоначальный седан обозначался приставкой «420». На базе платформы был освоен выпуск целого семейства модификаций: от кабриолимузина 400-420А и медицинского 400-420М до уникального фургона 400-422 с деревометаллическим кузовом из бакелитовой фанеры (для экономии дефицитного листового металла). Коллективная популярность моделей семейства 400 и 401 (выпущено 247 439 штук) сделала «Москвич» настоящей легендой советских дорог, открывшей миллионам автолюбителей путь в мир индивидуального транспорта.",
     "facts": [
-      "Based on Opel Kadett",
-      "Very important for Soviet motorization"
+      "The first mass-produced Soviet passenger car made widely available for sale directly to the general public.",
+      "Recreated from Opel Kadett K38 tooling and engineering documents evacuated from Rüsselsheim as reparations.",
+      "According to legend, Josef Stalin's personal reaction during a prototype preview directly led to its four-door design.",
+      "Utilized an ultra-low compression ratio of 5.8, allowing it to reliably run on low-octane A-66 gasoline.",
+      "The 400-422 modification used a wood-and-metal van body with Bakelite plywood over a wooden frame to save steel sheets.",
+      "Under the plant's index system, '400' referred to the engine model, while '420' designated the sedan body."
     ],
     "facts_ru": [
-      "Основан на Opel Kadett",
-      "Очень важен для масссовой автомобилизации в СССР"
+      "Первый советский легковой автомобиль массового производства, ставший свободно поступать в продажу для населения.",
+      "Воссоздан на основе чертежей и оснастки Opel Kadett K38, вывезенных по репарациям с завода в Рюссельсхайме.",
+      "По легенде, личное замечание Иосифа Сталина во время осмотра прототипа предопределило создание четырёхдверной версии.",
+      "Низкая степень сжатия (5,8) позволяла двигателю устойчиво работать на низкооктановом бензине марки А-66.",
+      "Грузовая модификация 400-422 выпускалась с деревометаллическим кузовом из бакелитовой фанеры ради экономии стали.",
+      "Согласно заводской номенклатуре, число «400» обозначало модель двигателя, а кузов типа седан нёс индекс «420»."
     ],
     "tags": [
       "postwar",
@@ -1052,7 +1062,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-408",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 408/412",
     "model": "Moskvich-408",
     "display_name": "Moskvich-408",
@@ -1073,15 +1083,25 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "A popular compact family car known for its modern-for-the-time styling, spacious interior, and export success in Western Europe.",
     "description_ru": "Популярный малолитражный семейный автомобиль, отличавшийся современным для своего времени стилем, комфортом и огромным успехом на зарубежных рынках.",
+    "extended_description": "The Moskvich-408 is a classic Soviet small-class passenger car in a sedan body style. Mass-produced at the Moscow Compact Car Plant (MZMA, renamed AZLK in 1968) from 1964 to 1975, as well as at the Izhevsk Automobile Plant from 1967 to 1968, it was the pioneer of the 3rd generation of Moskvich vehicles.\\n\\nDeveloping since 1959 with a strong emphasis on sleek, contemporary styling, the 408 featured a lower, longer, and wider silhouette than its predecessors. This considerably expanded the interior space and visibility, supplemented by a generous glass area. Standard features initially included a front bench seat (switched to individual bucket seats in 1968), thin doors with flat window glass, a center-mounted fuel tank neck (allowing filling from either side), and easily removable fender panels to simplify repair. The cabin gained modern safety-oriented soft foam dashboard pads in 1969/1971.\\n\\nWhile its styling was vanguard, its mechanics evolved conservatively from the Moskvich-403, utilizing a 4-speed gearbox (steering-column shifter until 1972) and a robust independent, kingpinless front suspension on transverse wishbones. Its 1.36-liter inline-four engine, a descendant of the 1938 Opel Kadett lineage heavily revised for the 407, was further uprated to produce 50–55 hp, notable for utilizing a sophisticated two-barrel K-126 carburetor.\\n\\nThroughout the late 1960s, the Moskvich-408 was a massive export phenomenon. Over 50% (and up to 64% by 1969, reflecting the joint -412 assembly) of production went overseas, including to highly developed capitalist countries. It was widely distributed in Scandinavia as the 'Moskvich Carat', France as 'Moskvitch Elite 1360', and Belgium as the 'Scaldia 1360', where Scaldia-Volga S.A. even assembled some units locally with British Perkins diesel engines. In 1964, MZMA engineered two highly advanced, experimental 'Moskvich-408 Tourist' 2+2 grand-tourer prototypes—a hardtop cabriolet featuring a removable hard shell, frame-free window glass, and a fuel-injection engine—though mass production was canceled due to total assembly line overload.",
+    "extended_description_ru": "«Москвич-408» — советский легковой автомобиль малого класса с типом кузова седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА / МЗМЛ, переименованном в 1968 году в АЗЛК) с 1964 по 1975 год, а также на Ижевском автозаводе в 1967–1968 годах. Он стал основоположником третьего поколения автомобилей «Москвич».\\n\\nРазработка принципиально новой модели стартовала в 1959 году. Особое внимание дизайнеры уделили кузову: по сравнению с предшественниками, выросли длина и ширина кузова при одновременном снижении его высоты, что существенно улучшило динамику, устойчивость и обзорность. Конструкция отличалась высокой жесткостью, а также легкосъемными крыльями для простоты кузовного ремонта. Заливная горловина бензобака посередине задней панели позволяла заправляться с любой стороны. Салон обзавелся раздельными сиденьями в 1968 году (вместо цельного дивана), а в 1969 и 1971 годах передняя панель получила цельные мягкие травмобезопасные накладки из пластика.\\n\\nВ механической части революции не произошло — машина унаследовала многие отработанные узлы от переходной модели «Москвич-403»: 4-ступенчатую коробку передач с переключением на рулевом валу (до 1972 года) и прочную переднюю подвеску на поперечных рычагах. Двигатель объемом 1358 куб. см конструктивно восходил к прошлым моделям, но был значительно форсирован до 50–55 л.с. за счет установки редкого для того времени двухкамерного карбюратора К-126, обеспечивающего превосходную тяговую стабильность.\\n\\nДо конца 1960-х годов «Москвич-408» пользовался грандиозным успехом за границей. Более половины годового выпуска шло на экспорт, в том числе в развитые капстраны (до 64% экспорта в 1969 году совместно с моделью 412). В Скандинавии модель продавалась как Moskvich Carat, во Франции — как Moskvitch Elite 1360, в Бельгии — как Scaldia 1360 (где Scaldia-Volga собирала их из машинокомплектов с английскими дизелями Perkins в 34 л.с.), а в Англии поставлялась специальная праворульная версия. В 1964 году на заводе были спроектированы две экспериментальные спортивные машины «Москвич-408 Турист» — двухдверный хардтоп-кабриолет 2+2 со съёмным пластиковым верхом, Х-образным усилителем пола, безрамочными стеклами и инновационным двигателем с электронным впрыском топлива. В серию «Турист» не пошел из-за полной загрузки конвейера базовыми седанами.",
     "facts": [
-      "Extremely popular on export markets in Western Europe",
-      "One of the first Soviet cars with extensive passive safety styling",
-      "Adopted a revolutionary design for Soviet cars of the 1960s"
+      "The founding father of the third-generation Moskvich family, featuring a longer, wider, yet much lower silhouette.",
+      "Vanguard 1960s design featuring thin doors, flat glass, a center-mounted fuel neck, and easily detachable body wings.",
+      "An extraordinary export success: exported to over 50% of its annual output, reaching Scandinavia, France, Belgium, and Western Germany.",
+      "Equipped with an improved 1.36-liter inline-4 engine featuring a progressive K-126 twin-barrel carburetor.",
+      "The Scaldia 1360 Belgian-assembled models were even fitted with 1.5-liter Perkins diesel engines putting out 34 hp.",
+      "In 1964, MZMA built two highly advanced 'Moskvich-408 Tourist' 2+2 hardtop cabriolets with a fuel-injection system and a reinforced floor structure.",
+      "Acquired soft safety-enhancing polyurethane dashboard layers in 1969 and individual bucket seats in 1968."
     ],
     "facts_ru": [
-      "Был крайне популярен на экспортных рынках Западной Европы",
-      "Один из первых советских автомобилей с элементами пассивной безопасности",
-      "Задал новую эстетическую планку для советского автомобилестроения 1960-х годов"
+      "Родоначальник третьего поколения «Москвичей» с принципиально новым, более длинным, широким и приземистым кузовом.",
+      "Обладал стильным дизайном 1960-х годов, легкосъемными крыльями и заливной горловиной бензобака по центру кузова.",
+      "Грандиозный экспортный успех: более половины выпуска продавалось за рубежом, включая Бельгию, Францию, Финляндию и Великобританию.",
+      "Оснащался усовершенствованным 1,36-литровым мотором с прогрессивным двухкамерным карбюратором К-126.",
+      "В Бельгии Scaldia-Volga собирала из машинокомплектов версию Scaldia 1360 с английским экономичным дизелем Perkins мощностью 34 л.с.",
+      "В 1964 году завод создал два экспериментальных кабриолета «Москвич-408 Турист» со съёмным верхом и электронным впрыском топлива.",
+      "В процессе производства получил мягкую травмобезопасную обивку панели приборов (1969 г.) и раздельные передние кресла (1968 г.)."
     ],
     "tags": [
       "compact",
@@ -1099,7 +1119,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-412",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 408/412",
     "model": "Moskvich-412",
     "display_name": "Moskvich-412",
@@ -1118,15 +1138,28 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       75
     ],
-    "description": "Popular Soviet compact sedan with relatively advanced engine.",
-    "description_ru": "Популярный советский малолитражный седан с современным для того времени двигателем.",
+    "description": "Popular Soviet compact sedan with a relatively advanced 1.5-liter engine, an outstanding export star and racing champion.",
+    "description_ru": "Популярный советский малолитражный седан с передовым 1,5-литровым верхневальным двигателем, звезда экспорта и ралли.",
+    "extended_description": "The Moskvich-412 is a legendary Soviet small-class passenger sedan, mass-produced at the Moscow Compact Car Plant (MZMA, renamed AZLK in 1968) from 1967 to 1975, and additionally manufactured at the Izhevsk Automobile Plant (IzhAvto) from 1968 to 1997. Serving as a direct evolution of the Moskvich-408, the 412 is regarded as one of the peak engineering achievements in Soviet automotive history, earning phenomenal international success.\\n\\nThe crown jewel of the Moskvich-412 was its 'heart'—the newly developed, high-tech 1.5-liter overhead-cam aluminum block engine producing 75 hp. Compared to the 1.4-liter engine of the 408, this advanced powerplant boosted power by 50% and peak torque by 17 Nm, allowing the car to sprint to 100 km/h in 22 seconds, raise top speed to 140 km/h, and improve fuel efficiency by 1 liter per 100 km. Initially, the car utilized the body of the 408, but in 1969 both lines transitioned to a modernized body layout with rectangular East German (GDR) headlights and triangular rear light signals. This safety-focused redesign complied with UNECE standards and was certified via demanding crash-tests in France, earning the 'IE' safety suffix.\\n\\nThe 412 was a massive hit on international markets, often surpassing domestic delivery volumes. It was assembled in Bulgaria as the 'Moskvitch Rila' and in Belgium as the 'Scaldia 412'. Robust unibody construction and reliable mechanics also allowed the factory racing team to win numerous domestic and international rally events. However, following the rise of the Volga Automobile Plant (Vaz/Lada) and a lack of subsequent state funding, the Moskvich line became stagnated; its 1976 successor, the 2140, was merely a cosmetic update of the 412 platform, turning this once-advanced classic into an anachronism by the late 1970s.",
+    "extended_description_ru": "«Москвич-412» — легендарный советский легковой автомобиль малого класса с кузовом седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА, с 1968 года — АЗЛК) с 1967 по 1975 год, а также на Ижевском автозаводе с 1968 по 1997 год. Став важной ступенью эволюции идей «Москвича-408», модель 412 стала одним из главных технических триумфов советского легкового автомобилестроения.\\n\\nГлавным преимуществом и гордостью «Москвича-412» стало его «сердце» — новый прогрессивный полностью алюминиевый верхневальный двигатель объемом 1,5 литра мощностью 75 л.с. По сравнению с прежним 1,4-литровым мотором модели 408, мощность возросла на 50%, а крутящий момент — на 17 Н*м. Динамические характеристики улучшились кардинально: разгон до 100 км/ч сократился на 10 секунд (до 22 сек), максимальная скорость выросла на 18 км/ч (до 140 км/ч), а средний расход бензина снизился на 1 литр. Изначально автомобиль выпускался в старом кузове 408 с круглыми фарами, но в 1969 году обе линейки прошли рестайлинг и обрели новый кузов с шестиугольными фарами производства ГДР и горизонтальными задними фонарями с треугольными указателями поворота. Новые кузова с литерой «ИЭ» изначально соответствовали строгим европейским нормам пассивной безопасности, что подтвердили успешные сертификационные крэш-тесты во Франции.\\n\\n«Москвич-412» пользовался колоссальным спросом за рубежом, куда в первые годы уходила большая часть выпуска. Сборка велась в Болгарии (под маркой Moskvitch Rila) и Бельгии (у дилера Scaldia-Volga как Scaldia 412). Чрезвычайно прочный несущий кузов и выносливый мотор позволяли заводским гонщикам успешно побеждать на сложнейших союзных и европейских раллийных марафонах. К сожалению, появление Волжского автозавода (ВАЗ) сместило фокус государственного финансирования с АЗЛК. Дальнейшее развитие марки фактически остановилось, и преемник 1976 года — модель «Москвич-2140» — стал лишь продуктом поверхностного рестайлинга 412-го, превратив некогда прогрессивную платформу в технический анахронизм к концу 1970-х годов.",
     "facts": [
-      "Successful in rallies",
-      "Exported internationally"
+      "Powered by a highly advanced 1.5-liter overhead-cam aluminum engine delivering 75 hp, boosting power by 50% over the 408.",
+      "Shortened 0–100 km/h acceleration by 10-12 seconds down to 22 seconds, raising maximum top speed to 140 km/h.",
+      "Upgraded in 1969 with a modernized 'IE' safety body featuring rectangular East German headlights and triangular rear turn signals.",
+      "The passive safety of the upgraded body was verified and certified by official crash-tests conducted in France.",
+      "An exceptional export success, manufactured as the 'Moskvitch Rila' in Bulgaria and sold as 'Scaldia 412' in Belgium.",
+      "Renowned for its robust unibody construction, scoring numerous victories in brutal domestic and international rally events.",
+      "The 1976 successor, Moskvich-2140, was a cosmetic update of the 412 platform, illustrating MZMA/AZLK's stagnation due to Lada prioritization."
     ],
     "facts_ru": [
-      "Успешно выступал в ралли",
-      "Экспортировался по всему миру"
+      "Получил передовой 1,5-литровый полностью алюминиевый верхневальный двигатель мощностью 75 л.с., весивший меньше чугунных аналогов.",
+      "Сократил время разгона до 100 км/ч на 10 секунд (до 22 с), развивая максимальную скорость до 140 км/ч при уменьшенном расходе топлива.",
+      "В конце 1969 года прошёл рестайлинг, получив кузов «ИЭ» с прямоугольными фарами производства ГДР и горизонтальными задними фонарями.",
+      "Пассивная безопасность модернизированного кузова была официально доказана в рамках строгих краш-тестов во Франции.",
+      "Пользовался огромным успехом на внешних рынках: собирался в Болгарии («Moskvitch Rila») и импортировался в Бельгию («Scaldia 412»)."
+    ,
+      "Успешно участвовал в сложнейших советских и международных раллийных гонках благодаря выносливости силовой конструкции.",
+      "Преемник модели — «Москвич-2140» (1976 г.) — фактически являлся лишь фейслифтингом прогрессивной в своё время базы модели 412."
     ],
     "tags": [
       "compact",
@@ -1163,15 +1196,26 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       75
     ],
-    "description": "Facelifted continuation of Moskvich-412.",
-    "description_ru": "Модернизированное продолжение модели Москвич-412.",
+    "description": "Facelifted continuation of the Moskvich-412 family, boasting improved interior design and safer disc front brakes.",
+    "description_ru": "Глубоко модернизированная версия модели Москвич-412 с дисковыми передними тормозами и улучшенной отделкой.",
+    "extended_description": "The Moskvich-2140 is a classic Soviet small-class passenger sedan, mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1976 to 1988. It represented a major aesthetic and safety-oriented restyling of the older Moskvich-412 platform. While modernizing the styling to look correct in the late 1970s and early 1980s, the car essentially kept the layout and structure of its predecessor, inheriting both its mechanical durability and its primary design drawbacks (such as a narrow passenger cabin and leaf-spring rear axles).\\n\\nMechanically, the 2140 was fitted with the 1.5-liter UZAM-412 inline-four engine producing 75 hp, which distinguished it from the companion Moskvich-2138, which utilized the outdated 1.4-liter engine from the 408 model. The 2140 featured several major tech upgrades, including a safer and more responsive dual-circuit brake system with modern front disc brake rotors, alongside a redesigned dashboard layout and seats. The interior climaxed with the premium '117' Lux / SL (Super Luxe) trim level produced from 1981 to 1987, featuring imported Yugoslavian plastic parts, velour seats, and a completely restyled dashboard.\\n\\nDespite these updates, the late-Soviet period saw a relative stagnation of the Moskvich brand as state funding shifted massively toward Lada (VAZ). The 2140 saw limited success, starting the 'dark era' for AZLK. Nonetheless, it remained popular across the USSR and was export-distributed to Scandinavia, Finland, and Greece. Complete knock-down assembly kits were heavily exported to Lovech, Bulgaria, where up to 20,000 units per year were assembled locally from 1976 to 1986. Specialized modifications included the low-octane detuned '2140D' for provincial A-76 fuel, the medical '21401', right-hand drive '21402', and the unique '21406' tailored for rural pathways, featuring all-drum brakes, a detuned engine, towing eyes, and heavy-duty springs.",
+    "extended_description_ru": "«Москвич-2140» — советский легковой автомобиль малого класса с кузовом типа седан. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1976 по 1988 год. По сути, он представлял собой глубокий косметический и технический рестайлинг заслуженного семейства «Москвич-412». Сохранив общую силовую конструкцию и остекление кузова предшественника, автомобиль получил современное внешнее оформление и значительно улучшенную отделку салона, отвечавшую стандартам второй половины 1970-х годов.\\n\\nВ отличие от параллельной бюджетной модификации «Москвич-2138», оснащавшейся старым 1,4-литровым мотором модели 408, на базовый «Москвич-2140» устанавливали проверенный временем надежный 1,5-литровый двигатель УЗАМ-412 уфимского производства мощностью 75 л.с. Ключевым техническим улучшением автомобиля стала разработка современной и эффективной тормозной системы с дисковыми механизмами на передних колесах и вакуумным усилителем. Кардинально обновился салон автомобиля: сиденья получили современную форму и тканевую обивку, а пиком комфорта стала люксовая модификация «2140-117» (SL / Super Luxe), выпускавшаяся в 1981–1987 годах и отличавшаяся импортным югославским пластиком салона, велюровой обивкой и оригинальным рулем.\\n\\nНесмотря на полезные нововведения, кузов на базе модели 1964 года сохранил узкий и тесный салон, а также рессорную заднюю подвеску, из-за чего модель уступала по комфорту более современным «Жигулям». Период выпуска 2140 совпал со снижением приоритета финансирования АЗЛК («темными временами» завода) со стороны министерства в пользу ВАЗа. Тем не менее, машина была очень распространена в СССР и активно экспортировалась в соцстраны, Финляндию, Грецию и Скандинавию, а в болгарском городе Ловеч велась отвёрточная сборка из советских машинокомплектов в объемах до 20 000 машин в год. Модель выпускалась в множестве утилитарных версий: дефорсированный под дешевый провинциальный бензин А-76 «2140Д», специальный сельский вариант «21406» (с защитой картера, барабанными тормозами всех колес, буксировочными проушинами и усиленными рессорами), такси «2140-121» и модификация с ручным управлением для инвалидов «21403».",
     "facts": [
-      "Improved interior",
-      "Very common in late USSR"
+      "A deep aesthetic and logical modernization of the Moskvich-412 sedan, mass-produced at AZLK from 1976 to 1988.",
+      "Powered by the 1.5-liter, 75 hp UZAM-412 engine, separating it from the budget 1.4-liter Moskvich-2138.",
+      "Featured a modern, safer dual-circuit braking system equipped with front disc brake rotors and a vacuum booster.",
+      "Acquired a highly improved interior layout, culminating in the premium 'SL' (Super Luxe) edition with velour upholstery.",
+      "Extensively exported as knock-down kits to Lovech, Bulgaria, where up to 20,000 units were assembled annually.",
+      "Offered in special editions including the rural '21406' (all-drum brakes, towing loops, tough springs) and low-octane gasoline '2140D'.",
+      "Retained the classic narrow leaf-spring chassis of its predecessor, highlighting AZLK's late-soviet stagnation."
     ],
     "facts_ru": [
-      "Улучшенный интерьер",
-      "Очень распространен в позднем СССР"
+      "Глубокий технический и эстетический рестайлинг седана «Москвич-412», выпускавшийся на заводе АЗЛК с 1976 по 1988 год.",
+      "Оснащался 1,5-литровым верхневальным двигателем УЗАМ-412 мощностью 75 л.с., весившим заметно меньше чугунных аналогов.",
+      "Получил более простую в обслуживании и эффективную двухконтурную тормозную систему со скобами и дисками спереди.",
+      "Салон обзавёлся современной передней панелью и сиденьями, достигшим совершенства в премиальной версии «SL» (Super Luxe).",
+      "Экспортировался в виде машинокомплектов в болгарский Ловеч, где собиралось до 20 000 машин в год под маркой Балкан.",
+      "Выпускался в уникальных версиях, таких как сельский «21406» (барабанные тормоза в круг, прочные рессоры) и дефорсированный под А-76 «2140Д»."
     ],
     "tags": [
       "compact",
@@ -1192,33 +1236,59 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "factory": "AZLK",
     "family": "Moskvich 2141",
     "model": "Moskvich-2141",
-    "display_name": "Moskvich Aleko",
-    "display_name_ru": "Москвич Алеко (2141)",
+    "display_name": "Moskvich-2141",
+    "display_name_ru": "Москвич-2141",
     "years": {
       "start": 1986,
-      "end": null
+      "end": 1998
     },
     "body_type": "hatchback",
     "body_type_ru": "хэтчбек",
-    "class": "front-wheel-drive compact",
-    "class_ru": "переднеприводный малый класс",
+    "class": "compact hatchback",
+    "class_ru": "хэтчбек малого класса",
     "engine": [
       "1.5L I4",
-      "1.6L I4"
+      "1.6L I4",
+      "1.7L I4",
+      "1.8L I4",
+      "2.0L I4",
+      "1.8L Diesel"
     ],
     "power_hp": [
       72,
-      76
+      76,
+      85,
+      90,
+      112,
+      60
     ],
-    "description": "Modern front-wheel-drive Moskvich hatchback.",
-    "description_ru": "Современный переднеприводный хэтчбек «Москвич».",
+    "description": "The landmark first front-wheel-drive hatchback of AZLK, offering exceptional roominess and handling despite late-Soviet industrial hardships.",
+    "description_ru": "Первый переднеприводный хэтчбек АЗЛК четвертого поколения с исключительно просторным салоном и отличной управляемостью.",
+    "extended_description": "The Moskvich-2141 is a landmark Soviet passenger car of the small (compact) class with a hatchback body style, mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1986 to 1998. It represents the very first front-wheel-drive model and the first hatchback layout from AZLK. From 1998 to 2001, the plant produced a modernized facelift variant known as the 'Moskvich-2141-02' or under its own distinctive name—'Svetogor'. In European Union countries, the model was exported as the 'Aleko' (short for Avtozavod Leninskogo Komsomola) or marketed as the 'Lada Aleko'.\\n\\nThe structural design of this fourth-generation Moskvich's unibody safety cage was derived from the French mid-1970s SIMCA 1307/1308 (which won the 'European Car of the Year' award for 1975/1976). Plant engineers recalled that the first operational prototype was literally a stripped Simca framework retrofitted with Russian mechanical units and newly designed body panels. Because the exterior skin panels were entirely fresh, Chrysler/Simca raised no intellectual property infringement claims. Visually, the 2141's aerodynamic, modern wedge exterior resembled high-end Western contemporary peers such as the Audi 80 and the BMW 5 series. Its longitudinal front-wheel-drive layout with a central differential positioned between the engine and the gearbox was directly borrowed from the Audi 100. This uncommon layout allowed the car to adapt backward-compatible older rear-wheel-drive engines, offered a wider pool of prospective powerplants, and prepared the platform for future all-wheel-drive integrations.\\n\\nThe vehicle featured carburetors and was powered by a variety of engines, including 1.5-liter, 1.7-liter, 1.8-liter, and 2.0-liter inline-fours manufactured by the Ufa Engine Plant (UZAM), a 1.6-liter engine from VAZ, and an export-only 1.8-liter Ford diesel (under index 2141-136). Power was handled by a 5-speed manual gearbox (though early series carried 4-speed units). It was highly valued as a family vehicle due to its massive cabin, split folding rear seats, efficient heating, effortless steering response, high-speed stability, and strong off-road traction in mud and snow. However, a major tragedy was the unfinished state-of-the-art AZLK engine factory, which was 90-95% complete in the early 1990s but abandoned due to post-Soviet economic collapse. This left the 2141 'temporarily' dependent on outdated Lada-2106 and UZAM-412 motors. Severe build, paint, and stamping issues at AZLK caused rapid body rust within the first year, which, combined with the poorly integrated and unreliable 1.4-liter UZAM-412 engine integration on the '21412' models (where the ignition distributor and expansion tank were hopelessly exposed), heavily damaged the car's ultimate legacy.",
+    "extended_description_ru": "«Москвич-2141» — советский и российский легковой автомобиль малого класса с кузовом типа хэтчбек. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1986 по 1998 год. Наряду с легендарной историей, он вошёл в летопись завода как первая переднеприводная модель АЗЛК и одновременно — первый серийный хэтчбек марки. С 1998 по 2001 год на конвейер встала его модернизированная и обновленная версия «Москвич-2141-02», получившая широкую известность под собственным звучным именем — «Святогор». На рынках Евросоюза хэтчбек предлагался под экспортным брендом Aleko (сокращение от «Автозавод Ленинского Комсомола») или Lada Aleko.\\n\\nКонструкция прочного силового каркаса «Москвича» четвертого поколения опиралась на французскую модель середины 1970-х годов SIMCA 1307/1308 (получившую престижный титул «Автомобиль 1975/1976 года»). Заводские конструкторы вспоминали, что первый макетный образец 2141 представлял собой кузов французской «Симки» с заново навешенными кузовными панелями оригинальной обтекаемой формы и отечественным шасси. Из-за полной переработки внешнего облика претензий в нелицензионном заимствовании со стороны французов не последовало, при этом экстерьер хэтчбека получился ультрасовременным для СССР середины 1980-х годов, визуально напоминая флагманскую Audi 80 и BMW 5-й серии. Схема переднего привода с продольным расположением двигателя и дифференциалом, установленным между мотором и коробкой передач, была заимствована у знаменитой немецкой модели Audi 100. Это конструктивное решение было продиктовано необходимостью использовать имеющиеся двигатели от заднеприводных машин предыдущих поколений, а также обеспечивало широкие перспективы выбора силовых агрегатов и создания полноприводных версий.\\n\\nНа автомобиль ставились уфимские карбюраторные двигатели УЗАМ рабочим объёмом 1.5, 1.7, 1.8 и 2.0 литра, вазовские моторы ВАЗ-2106 объёмом 1.6 литра, а также импортный дизельный двигатель Ford объёмом 1.8 литра (экспортная версия «Москвич-2141-136»). Трансмиссия оснащалась современной 5-ступенчатой механической коробкой передач (первые серии комплектовались четырёхступенчатой КПП). Потребительские качества автомобиля были выдающимися: он отличался очень просторным салоном, большим багажником со складываемым задним диваном, превосходно отапливаемой кабиной, лёгким реечным рулевым управлением, превосходной устойчивостью на высоких скоростях и проходимостью по грязным загородным дорогам. К сожалению, грандиозный проект строительства собственного современного моторного производства АЗЛК к началу 1990-х был готов на 90–95%, но из-за распада страны и глубокого кризиса так и не был запущен. В результате модель 2141 осталась с «временными» моторами ВАЗ-2106 и устаревшим уфимским двигателем УЗАМ-412 (модификация «21412»), который из-за неудачной адаптации под капотом (с легко заливаемым распределителем зажигания и перегревающимся бачком) отличался крайне низкой надёжностью. Быстро ржавеющий из-за плохой окраски и стальной штамповки кузов окончательно лишил эту комфортную семейную машину признания.",
     "facts": [
-      "Inspired by Simca 1308",
-      "One of the most modern Soviet passenger cars"
+      "The first mass-produced front-wheel-drive vehicle and hatchback in the history of the AZLK plant.",
+      "The unibody structural frame was calculated using the Chrysler-owned Simca 1307/1308 safety architecture.",
+      "Styled with a highly modern drag-efficient shape heavily influenced by the contemporary Audi 80 and BMW 5 Series.",
+      "Adopted an Audi 100-style longitudinal FWD setup, easing rear-wheel-drive engine adaptations and AWD expansions.",
+      "Offered a massive range of engines over its life: UZAM (1.5L to 2.0L), VAZ (1.6L), and a Ford 1.8-liter export diesel.",
+      "Designed to receive a dedicated, modern, state-of-the-art engine family, but the complex plant was abandoned at 90% completion.",
+      "Features exceptional passenger cabin spacing, high road clearance, and superb snow-travel capabilities.",
+      "Plagued by terrible anti-corrosion paint procedures at the plant, causing early rust inside the first year of road use.",
+      "Famous Soviet rock star Viktor Tsoi tragically lost his life in a car crash behind the wheel of a Moskvich-2141 in 1990.",
+      "Between January 1991 and mid-1992, purchases were restricted strictly to registered residents of Moscow and Moscow Oblast."
     ],
     "facts_ru": [
-      "Черпал вдохновение в Simca 1308",
-      "Один из наиболее современных советских легковых автомобилей"
+      "Первый серийный переднеприводный автомобиль и первый кузов типа хэтчбек в многолетней истории московского завода АЗЛК.",
+      "Внутренняя силовая структура кузова проектировалась на основе рамного каркаса европейского хэтчбека Simca 1307/1308.",
+      "Внешний дизайн панелей был полностью оригинальным, напоминая актуальные для середины 1980-х Audi 80 и BMW 5-й серии.",
+      "Продольная компоновка силового агрегата с размещением дифференциала была скопирована с немецкой схемы Audi 100.",
+      "Имел обширный моторный ряд: уфимские бензиновые УЗАМ (1,5–2,0 л), вазовский ВАЗ-2106 (1,6 л) и экспортный дизель Ford (1,8 л).",
+      "АЗЛК почти достроил собственный современный моторный завод, но распад СССР остановил запуск, лишив модель родного сердца.",
+      "Превосходил Жигули по комфорту, предлагая огромный салон, эффективное отопление и высокую курсовую управляемость.",
+      "Страдал от низкого качества сборки и удручающей антикоррозионной стойкости, кузова начинали ржаветь уже в первый год эксплуатации.",
+      "Именно на собственном «Москвиче-2141» в августе 1990 года трагически разбился в автокатастрофе рок-музыкант Виктор Цой.",
+      "С января 1991 до середины 1992 года модель продавалась только гражданам по строгой прописке в Москве и Московской области."
     ],
     "tags": [
       "fwd",
@@ -1255,17 +1325,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       75
     ],
-    "description": "The estate/wagon version of the Moskvich-2140 family, featuring spacious rear cargo configurations.",
-    "description_ru": "Пятидверный легковой автомобиль с кузовом универсал, выпускавшийся на базе узлов Москвича-2140.",
+    "description": "The five-door station wagon counterpart to the Moskvich-2140, offering high unification and spacious cargo room powered by the 1.5-liter engine.",
+    "description_ru": "Пятидверный компактный универсал на базе модели Москвич-2140 с 1,5-литровым уфимским двигателем.",
+    "extended_description": "The Moskvich-2137 is a classic Soviet small-class passenger-cargo station wagon that was mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1976 to 1985. It served as the direct five-door utility estate derivative of the updated Moskvich-2140 sedan family.\\n\\nStructurally, the 2137 wagon and its three-door panel van sibling, the Moskvich-2734, deeply copied the design, nose layout, front suspension, hydraulic dual-circuit brakes with front disc rotors, and interior dashboard elements of the base Moskvich-2140 sedan, making them highly unified. However, everything behind the front doors—the main cargo compartment and the rear structural body styling—was inherited directly from the preceding station wagon family (Moskvich-427 and Moskvich-434). Under the hood, the vehicle was equipped with the reliable 1.5-liter, 75 hp UZAM-412 overhead-cam engine, providing superior towing performance and stability compared to the older budget engines.",
+    "extended_description_ru": "«Москвич-2137» — советский легковой грузопассажирский автомобиль малого класса с типом кузова пятидверный универсал. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1976 по 1985 год. Он являлся прямой утилитарной грузопассажирской модификацией базового седана «Москвич-2140».\\n\\nПятидверный универсал «Москвич-2137», так же как и соплатформенный трёхдверный коммерческий фургон «Москвич-2734», во всех конструктивных и визуальных деталях копировал базовый седан «Москвич-2140» и был с ним предельно унифицирован. Это относилось к оформлению передней части кузова, безшкворневой передней подвеске, эффективным дисковым тормозам передних колес с вакуумным усилителем и травмобезопасному интерьеру кабины. При этом вся грузовая задняя часть кузова и багажный отсек достались модели по наследству от конструкции кузова предыдущего поколения универсалов («Москвич-427» и фургона «Москвич-434»). На автомобиль устанавливался проверенный верхневальный двигатель модели «412» уфимского завода рабочим объёмом 1,5 литра и мощностью 75 л.с.",
     "facts": [
-      "Equipped with state-of-the-art rear light clusters",
-      "Often used by Soviet state organizations for delivery",
-      "Rare and highly collectible variant today"
+      "A five-door station wagon designed as the passenger-cargo version of the upgraded Moskvich-2140 sedan.",
+      "Highly unified with the 2140, sharing its front body styling, upgraded dashboard, and front disc brakes.",
+      "The entire rear cargo compartment and tailgate structure were inherited from the preceding Moskvich-427 and 434 wagons.",
+      "Powered by the famous 1.5-liter UZAM-412 engine delivering a highly capable 75 hp output.",
+      "Shares close platform and part symmetry with the three-door commercial delivery van classmate, the Moskvich-2734."
     ],
     "facts_ru": [
-      "Оснащался передовой для своего времени оптикой",
-      "Часто использовался государственными учреждениями для быстрой доставки загород",
-      "Сегодня является редкой коллекционной моделью"
+      "Грузопассажирский пятидверный универсал, созданный как практичная модификация модернизированного седана «Москвич-2140».",
+      "Глубоко унифицирован с моделью 2140, заимствовав оформление передка, дисковые тормоза спереди с гидроусилителем и обновленный салон.",
+      "Вся задняя грузовая часть кузова и багажный отсек перешли по наследству от универсалов предыдущего поколения («Москвич-427»/«434»).",
+      "Оснащался надежным 1,5-литровым двигателем УЗАМ-412 мощностью 75 л.с., облегчающим перевозку тяжелых грузов.",
+      "Полностью идентичен по технической базе и передней кузовной застройке редкому трёхдверному коммерческому фургону «Москвич-2734»."
     ],
     "tags": [
       "wagon",
@@ -1302,17 +1378,31 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       50
     ],
-    "description": "The companion version of Moskvich-2140 equipped with the older, more economical 1.36L engine.",
-    "description_ru": "Менее мощная и более экономичная версия Москвича-2140 с двигателем объемом 1,36 литра от предыдущего поколения моделей.",
+    "description": "The legacy-engine counterpart of the Moskvich-2140 family, powered by the 1.4-liter (1.36L) 50 hp motor owing to component shortages.",
+    "description_ru": "Версия модели 2140 с устаревшим 1,4-литровым (1.36 л) 50-сильным двигателем, выпускавшаяся из-за дефицита уфимских моторов.",
+    "extended_description": "The Moskvich-2138 (often designated as family '1360') is a classic Soviet small-class passenger sedan, mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1976 to 1981. It was designated with the index 2138 in accordance with the new Soviet GOST standard. The vehicle represents a deep aesthetic and safety-oriented restyling of the older Moskvich-408 platform, mimicking the body and interior upgrades of the modern 1.5-liter Moskvich-2140 while carrying the legacy 1.36-liter (marketed as 1.4-liter) 50 hp UZAM-408 engine.\\n\\nThe primary rationale behind continuing production of this underpowered model was a severe manufacturing shortage of the advanced 1.5-liter UZAM-412 engines. These engines were highly sought after, as they were split between AZLK's own peak-production 2140 sedan and the Izhevsk Automobile Plant (IzhMash) which continued to roll out its own Moskvich-412 variants. In terms of engineering upgrades, the 2138 introduced crucial safety and operational refinements matching the 2140: a safer dual-circuit hydraulic brake layout with modern front disc brakes and a vacuum booster, sealed lifetime bearings in several transmission and chassis hubs, and maintenance-free grease joints in the front suspension and steering gears (which dramatically reduced required scheduled maintenance). The styling gained recessed safety door handles and cosmetic body enhancements, and the interior added modern comfortable front seats with integrated headrests.\\n\\nIn 1975, AZLK assembled a small transitional batch featuring the new 2138/2140 body shell and dashboard paired with older 408 door handles and steering wheels. Ultimately, the legacy 50 hp engine was far too outdated, failing to provide modern speed and adequate traffic acceleration. Consequently, AZLK ceased equipping Moskvich lines with the 408 engine in 1982, completely phasing out the 2138 family. Related variants included the medical '21381' (1976–1981), the rare '2136' station wagon (only 1 prototype built in 1976 due to the low-power engine), and the '2733' delivery van.",
+    "extended_description_ru": "«Москвич-2138» — советский легковой автомобиль малого класса с типом кузова седан. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) в 1976–1981 гг. как базовая модель семейства «1360». Своё новое цифровое обозначение автомобиль получил согласно введённой в отрасли единой системе классификации (ГОСТ). Машина являлась глубоким техническим и внешним рестайлингом прежнего семейства «Москвич-408» и оснащалась устаревшим 1,4-литровым нижневальным двигателем УЗАМ-408 мощностью 50 л.с.\\n\\nОсновной причиной параллельного производства этой модели при наличии более современного 1,5-литрового «Москвича-2140» являлся острый дефицит уфимских двигателей УЗАМ-412. Объёмов их выпуска не хватало для удовлетворения потребностей одновременно и московского завода АЗЛК, и Ижевского автозавода (ИжМаш), который продолжал массовую сборку классических «Москвичей-412». Внедрённые на «Москвиче-2138» новшества существенно повысили его безопасность и эксплуатационные качества, полностью повторяя объём модернизации модели 2140. В частности, на передних колесах появились эффективные дисковые тормоза, двухконтурный гидравлический привод с вакуумным усилителем тормозов и регулятор давления в заднем контуре. В ходовой части применили закрытые подшипники, а в передней подвеске и рулевом приводе — шарниры с разовой заправкой консистентной смазкой на весь срок службы, что в разы сократило периодичность обслуживания. Передние кресла получили регулируемые подголовники, а внешность преобразилась благодаря утопленным травмобезопасным ручкам дверей, новым бамперам и изменённой оптике. По сути, прочие силовые элементы кузова, КПП и мост оставались идентичными модели «Москвич-408ИЭ».\\n\\nВ конце 1975 года была выпущена промежуточная переходная партия машин — они сочетали новую кузовную скорлупу и мягкую переднюю панель 2138/2140 со старым рулевым колесом и классическими наружными ручками дверей от моделей 408/412. С самого начала выпуска 50-сильный силовой агрегат считался архаичным и откровенно слабым для потяжелевшего кузова, не обеспечивая адекватной динамики в растущем транспортном потоке. По этой причине в 1982 году использование старого двигателя было полностью прекращено, а семейство модификаций «1360» снято с производства. В линейку также входили: санитарный седан «21381» (1976–1981), грузовой фургон «2733» (1976–1981) и опытный универсал «Москвич-2136» (в 1976 году был собран единственный экземпляр, серийное производство которого признали нецелесообразным из-за дефицита мощности).",
     "facts": [
-      "Identical in exterior styling to Moskvich-2140",
-      "Produced to utilize stock of older engines",
-      "Phased out as the modern UZAM-412 engine took priority"
+      "The base sedan of the '1360' family, combining the modernized Moskvich-2140 body design with a legacy 1.4-liter engine.",
+      "Retained the obsolete 50 hp UZAM-408 motor due to a severe production deficit of advanced 1.5-liter UZAM-412 powerplants.",
+      "The 1.5L engines were prioritised for the Moskvich-2140 and for delivery to IzhMash, which was still manufacturing the Moskvich-412.",
+      "Introduced crucial safety enhancements including dual-circuit front disc brakes and a modern vacuum booster unit.",
+      "Significantly reduced scheduled maintenance by establishing sealed bearings and lifelong grease-packed steering/suspension joints.",
+      "Added modern passenger cabin elements such as comfortable front seat headrests and safety-oriented recessed door handles.",
+      "In late 1975, a transitional batch utilized the 2138 body shell with older 408/412 style handles and steering controls.",
+      "Ended production in 1981 and formally dropped the 1.4L engine line in 1982 due to its sluggish real-world acceleration.",
+      "Family models included the '21381' medical sedan, '2733' delivery van, and the rare single-prototype '2136' station wagon built in 1976."
     ],
     "facts_ru": [
-      "Внешне полностью идентичен старшему Москвичу-2140",
-      "Выпускался для утилизации накопленных объемов надежных старых моторов",
-      "Снят с производства в пользу более мощного уфимского мотора УЗАМ-412"
+      "Базовый седан семейства «1360», совместивший современный кузов типа 2140 со старым 1,4-литровым мотором.",
+      "Комплектовался устаревшим 50-сильным двигателем УЗАМ-408 из-за дефицита мощных 1,5-литровых моторов серии УЗАМ-412.",
+      "Дефицитные уфимские моторы уходили преимущественно на базовый «Москвич-2140» и поставлялись на ИжМаш для сборки «Москвича-412».",
+      "Оснащался передовой тормозной системой с дисковыми механизмами спереди, двухконтурным гидроприводом и вакуумным усилителем.",
+      "Получил закрытые подшипники и шарниры подвески/рулевого привода с пожизненной смазкой, значительно упростившие ТО.",
+      "Салон обзавёлся эргономичными сиденьями с регулируемыми подголовниками и травмобезопасными скрытыми ручками дверей.",
+      "В конце 1975 года выпущена переходная серия со свежим кузовом, но со старым тонким рулем и торчащими ручками дверей моделей 408/412.",
+      "Семейство «1360» снято с конвейера в 1981 году, а окончательный отказ от 50-сильного двигателя АЗЛК произошел в 1982 году.",
+      "Включал модификации: санитарную («21381»), фургон («2733») и единственный собранный в 1976 году опытный универсал («2136»)."
     ],
     "tags": [
       "compact",
@@ -1337,7 +1427,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "display_name_ru": "Москвич-2315",
     "years": {
       "start": 1984,
-      "end": 1991
+      "end": 1988
     },
     "body_type": "pickup",
     "body_type_ru": "пикап",
@@ -1349,17 +1439,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       75
     ],
-    "description": "A limited-series pickup truck built on the Moskvich-2140 platform, used inside factories and local enterprises.",
-    "description_ru": "Малосерийный легкий коммерческий пикап на базе узлов седана Москвич-2140.",
+    "description": "A rare limited-series utility pickup truck built on the Moskvich-2140 platform, often assembled from rejected or damaged sedan and wagon bodies.",
+    "description_ru": "Редкий малосерийный коммерческий пикап на базе узлов седана Москвич-2140, собиравшийся из отбракованных кузовов седанов и универсалов.",
+    "extended_description": "The Moskvich-2315 is a classic Soviet small-class passenger-cargo light utility pickup truck, manufactured in very limited quantities at the Leninsky Komsomol Automobile Plant (AZLK) from 1984 to 1988. It represented a highly localized, small-batch initiative to provide a compact utility pickup format based on the modernized Moskvich-2140 sedan framework.\\n\\nRather than having a fully dedicated tooling and production line, the 2315 was assembled in small micro-batches utilizing rejected sedan and station wagon body shells from the main assembly line. Body sections that failed quality checks for full passenger use were cut behind the front doors and converted into a pickup format, receiving a flat metal cargo floor and a simple folding tailgate. This made the model highly resourceful for the factory, though today it makes surviving specimens exceptionally rare. Mechanically, the pickup was equipped with the standard 1.5-liter, 75 hp UZAM-412 engine, matching the capabilities of the primary sedan. In real-world photos, these vehicles are often seen fitted with aftermarket non-original canvas covers (tonneau tents) on the cargo bed, which were not part of the standard factory delivery but were widely used to protect cargo.",
+    "extended_description_ru": "«Москвич-2315» — советский малолитражный грузовой пикап малого класса. Мелкосерийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1984 по 1988 год. Модель была создана на агрегатной базе и кузовных элементах модернизированного семейства «Москвич-2140».\\n\\nГлавной особенностью производства «Москвича-2315» было то, что он выпускался исключительно мелкими партиями по обходным технологиям. Под сборку пикапов шли отбракованные по тем или иным причинам на основном конвейере готовые кузова седанов (Москвич-2140) и универсалов (Москвич-2137). Такие кузова обрезались сразу за передней двухместной кабиной, получали глухую заднюю стенку со скромным окошком, а задняя грузовая платформа оформлялась бортовой надстройкой с откидным задним бортом. Это позволяло заводу рационально использовать производственный брак прессового и сварочного цехов, решая одновременно внутренние транспортные задачи и обеспечивая мелкие коммерческие нужды. На грузовик устанавливался стандартный уфимский двигатель УЗАМ-412 объемом 1,5 литра и мощностью 75 л. с. Из-за специфики производства и малых тиражей до наших дней сохранились буквально единичные экземпляры модели, что делает её сегодня редчайшей коллекционной ценностью. Большинство уцелевших образцов комплектуются самодельными неоригинальными брезентовыми или пластиковыми тентами над открытым кузовом, которые защищают перевозимые вещи от дорожной пыли и осадков.",
     "facts": [
-      "Generally constructed out of sedan bodies inside the factory",
-      "Mainly served for internal factory deliveries",
-      "Very rare and unique Soviet utility vehicle"
+      "A highly unique and extremely rare utility pickup produced in limited quantities at the AZLK factory from 1984 to 1988.",
+      "Assembled in small batches utilizing rejected or structurally imperfect sedan (2140) and estate (2137) body shells.",
+      "Equipped with the standard 1.5-liter UZAM-412 engine, delivering a highly capable 75 hp output.",
+      "Designed with a folding tailgate and a flat metal cargo surface positioned behind a shortened two-seat cabin.",
+      "Surviving examples are incredibly rare, with many displaying non-original aftermarket cargo bed canvas tents."
     ],
     "facts_ru": [
-      "Изготавливался прямо на заводе из бракованных по кузову или готовых седанов",
-      "Основной целью было обслуживание внутризаводских нужд АЗЛК",
-      "Является редким артефактом позднего советского автопрома"
+      "Исключительно редкий малосерийный пикап, выпускавшийся мелкой серией на мощностях завода АЗЛК в 1984–1988 гг.",
+      "Собирался вручную из дефектных или отбракованных кузовов серийных седанов «Москвич-2140» и универсалов «Москвич-2137».",
+      "Оснащался стандартным 1,5-литровым двигателем УЗАМ-412 мощностью 75 л. с., как и базовые легковые модификации.",
+      "Грузовой отсек оснащался откидным задним бортом и ровным металлическим полом за укороченной двухместной кабиной.",
+      "Большинство современных фотографий и уцелевших машин имеют неоригинальные самодельные тканевые или брезентовые тенты кузова."
     ],
     "tags": [
       "utility",
@@ -1396,17 +1492,27 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       50
     ],
-    "description": "A compact delivery van built as part of the transition generation of Moskvich vehicles.",
-    "description_ru": "Малотопливный компактный развозной металлический фургон на агрегатах семейства Москвич-2138.",
+    "description": "A compact three-door delivery van on the Moskvich-2138 platform, fitted with the legacy 1.4-liter (1.36L) engine.",
+    "description_ru": "Малолитражный компактный трёхдверный грузовой фургон на платформе Москвич-2138 с устаревшим 1,4-литровым двигателем.",
+    "extended_description": "The Moskvich-2733 is a classic Soviet small-class three-door commercial delivery van, mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1976 to 1981. It served as a utility passenger-cargo version of the modernized Moskvich-2140 family and acted as the direct successor to the previous generation's Moskvich-433 van. Its defining specification was the use of an outdated 1.36-liter (marketed as 1.4-liter) inline-four AZLK-408 engine, distinguishing it from the sibling Moskvich-2734 van which carried the more powerful 1.5-liter engine.\\n\\nStructurally and styling-wise, the 2733 (along with the 2137 station wagon and 2734 van) deeply cloned the base Moskvich-2140 sedan in all design elements except for the rear cargo compartment, achieving extreme parts unification including front suspension, steering work, and safety-oriented dual-circuit front disc brakes. However, the entire rear cargo envelope, vertical walls, and cargo access layout were inherited directly from prior wagon frameworks. Rated for a maximum load capacity of 250 kg, the van was severely underpowered. Producing only 50 hp on cheap low-octane A-76 gasoline, the burdened vehicle struggled heavily to match contemporary road speeds, which led to poor overall demand and an early production end, particularly given the concurrent availability of the more robust and highly adaptable Izh-2715 delivery van.",
+    "extended_description_ru": "«Москвич-2733» — советский малолитражный коммерческий автомобиль малого класса с трёхдверным кузовом типа фургон. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1976 по 1981 год. Модель являлась специализированной грузопассажирской утилитарной версией модернизированного семейства «Москвич-2140» и стала непосредственным преемником устаревшего фургона «Москвич-433». Ключевым конструктивным отличием модели 2733 от параллельного фургона «Москвич-2734» стала установка более старого дефорсированного 1,4-литрового двигателя модели АЗЛК-408 мощностью всего 50 л.с.\\n\\nВ техническом и внешнем плане фургон «Москвич-2733», равно как и универсал «Москвич-2137» и более мощный фургон «Москвич-2734», в деталях (кроме задней грузовой части кузова и багажного отделения) копировали базовый седан «Москвич-2140» и были полностью с ним унифицированы по кабине, приборной панели, передней подвеске и эффективной передней дисковой тормозной системе с вакуумным усилителем. При этом вся грузовая задняя надстройка и конструкция задней двери достались автомобилю по наследству от фургонов предыдущего поколения. Грузоподъемность фургона составляла всего 250 кг. Архаичный карбюраторный двигатель модели 408, работавший на низкооктановом бензине А-76, выдавал скромные 50 л.с., из-за чего полностью загруженная машина испытывала огромные проблемы с динамикой на разгоне и с трудом вписывалась в городской транспортный поток. Это предопределило низкий спрос и быстрое прекращение выпуска модификации в 1981 году, тем более что в те же годы существовал гораздо более удобный и практичный коммерческий автомобиль ИЖ-2715 ижевского производства.",
     "facts": [
-      "Featured blind metal side panels instead of rear windows",
-      "Served utility firms and Soviet postal networks",
-      "Designed with split doors for quick loading"
+      "A light three-door commercial delivery van directly acting as the successor to the older Moskvich-433.",
+      "Equipped with the outdated 1.36-liter (1.4L) AZLK-408 engine, separating it from the 1.5-liter Moskvich-2734.",
+      "Deeply unified in front body design, brakes, and cabin trim with the modernized Moskvich-2140 passenger sedan.",
+      "The rear cargo body and split-gate layout were inherited directly from the previous generation of Moskvich wagons.",
+      "Offered a maximum load-carrying payload of up to 250 kg over solid hard-surfaced roads.",
+      "Underpowered 50 hp motor running on A-76 low-octane fuel caused serious traffic-matching issues, leading to early termination.",
+      "Faced severe domestic competition from the highly popular and far more practical Izh-2715 panel van during its production years."
     ],
     "facts_ru": [
-      "Имел глухие металлические боковины вместо заднего остекления",
-      "Активно использовался на почте и в службах быта",
-      "Окна задней двери были разделены для удобства погрузки"
+      "Малогабаритный трёхдверный коммерческий фургон, ставший прямым техническим преемником ушедшего на покой «Москвича-433».",
+      "Оснащался устаревшим 1,4-литровым (1.36 л) двигателем АЗЛК-408, что отличало его от аналогичного 1,5-литрового «Москвича-2734».",
+      "Полностью унифицирован по облицовке передка, приборной панели и двухконтурным передним дисковым тормозам с седаном «Москвич-2140».",
+      "Вся задняя грузовая надстройка и очертания багажной двери унаследованы от моделей предыдущего поколения.",
+      "Обладал ограниченной полезной грузоподъемностью, составлявшей всего 250 кг груза на подготовленных путях.",
+      "Слабый 50-сильный мотор на низкооктановом бензине А-76 делал тяжелогруженую машину небезопасной и медленной в потоке транспорта.",
+      "Уступал по утилитарности и практичности знаменитому ижевскому «каблуку» ИЖ-2715, выпускавшемуся в те же годы."
     ],
     "tags": [
       "utility",
@@ -1443,17 +1549,26 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       75
     ],
-    "description": "A commercial delivery van based on the Moskvich-2140 sedan platform with a passenger-compartment partition.",
-    "description_ru": "Легкий развозной фургон на базе легкового автомобиля Москвич-2140.",
+    "description": "The robust 1.5-liter three-door commercial delivery van of the Moskvich-2140 family, succeeding the Moskvich-434.",
+    "description_ru": "Трёхдверный коммерческий фургон на платформе Москвич-2140 с 1,5-литровым двигателем УЗАМ-412.",
+    "extended_description": "The Moskvich-2734 is a classic Soviet small-class three-door commercial delivery van, mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1976 to 1981. It was designed as the light utility derivative of the modernized Moskvich-2140 sedan family and served as the direct successor to the previous generation's Moskvich-434 van. The key mechanical feature of the 2734 was its powerful 1.5-liter UZAM-412 engine, which distinguished it from the companion Moskvich-2733 van that carried the less powerful 1.4-liter engine from the 408 model.\\n\\nStructurally and styling-wise, the 2734 (along with the 2137 station wagon and 2733 van) copied the base Moskvich-2140 sedan in all front-end and cabin configurations, including the advanced shock-absorbing dashboard, front suspension elements, and dual-circuit safety-oriented brakes with front disc rotors. However, everything behind the front doors—the vertical steel body sides, internal cargo shelf, and rear tailgate—was inherited from the previous generation's station wagon and van body shells (Moskvich-427 and 434). Operating with a driver and one passenger, the van had a dedicated payload capacity of 400 kg. Despite its high unification and modern 75 hp engine, the model was ultimately discontinued in 1981 because the far more practical, taller, and user-friendly Izh-2715 panel van (popularly called 'heel') dominated the Soviet domestic commercial market.",
+    "extended_description_ru": "«Москвич-2734» — советский малолитражный коммерческий автомобиль малого класса с трёхдверным кузовом типа фургон. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1976 по 1981 год. Модель была спроектирована как утилитарная грузовая модификация модернизированного семейства «Москвич-2140» и пришла на смену коммерческому фургону предыдущего поколения «Москвич-434». Главным техническим достоинством и отличием модели 2734 от параллельно выпускавшегося фургона «Москвич-2733» стало использование мощного 1,5-литрового двигателя УЗАМ-412, тогда как 2733 оснащался старым 1,4-литровым мотором модели 408.\\n\\nВ техническом и внешнем плане фургон «Москвич-2734», равно как и универсал «Москвич-2137», во всех кузовных деталях кабины и передка полностью копировали базовый седан «Москвич-2140», заимствуя у него современное оформление облицовки, эргономичную панель приборов, переднюю независимую подвеску и эффективные дисковые тормоза передних колёс с вакуумным усилителем. При этом вся грузовая задняя часть кузова и багажный отсек со складываемым полом достались модели в наследство от кузовных штампов предыдущего семейства (универсала «Москвич-427» и фургона «Москвич-434»). Грузоподъемность автомобиля составляла 400 кг при двух пассажирах в салоне. Несмотря на высокую степень унификации с современным седаном и мощный 75-сильный двигатель, выпуск фургона прекратили уже в 1981 году из-за крайне жёсткой внутренней конкуренции с гораздо более практичным, вместительным и удобным ижевским «каблучком» ИЖ-2715.\\n",
     "facts": [
-      "Equipped with heavy-duty rear leaf springs",
-      "A solid partition separated the driver from cargo",
-      "Withdrawn from passenger registries due to pure utility design"
+      "A light three-door commercial delivery van directly acting as the successor to the Moskvich-434.",
+      "Powered by the 1.5-liter UZAM-412 engine, separating it from the underpowered 1.4-liter Moskvich-2733.",
+      "Deeply unified in front body design, brakes, and cabin trim with the modernized Moskvich-2140 passenger sedan.",
+      "The rear cargo body and split-gate layout were inherited from the previous generation of Moskvich wagons.",
+      "Offered a maximum load-carrying payload of up to 400 kg along with 2 passengers onboard.",
+      "Sought after in both domestic and export utility roles, but suffered from a relatively low cargo height.",
+      "Withdrawn from production in 1981 because the highly practical Izh-2715 panel van proved vastly superior."
     ],
     "facts_ru": [
-      "Оснащался усиленными рессорами сзади для высокой грузоподъемности",
-      "Глухая разделительная перегородка отделяла двухместную кабину от груза",
-      "Был чистым коммерческим транспортом, недоступным для свободной покупки гражданами"
+      "Малогабаритный трёхдверный коммерческий фургон на платформе 2140, сменивший на конвейере «Москвич-434».",
+      "Оснащался надежным 1,5-литровым уфимским двигателем УЗАМ-412 (75 л.с.), в отличие от слабого 1,4-литрового «Москвича-2733».",
+      "Полностью унифицирован по оформлению передка, приборной панели и двухконтурным передним дисковым тормозам с седаном «Москвич-2140».",
+      "Задняя грузовая часть кузова и очертания багажного отделения унаследованы непосредственно от моделей предыдущего поколения.",
+      "Обладал полезной грузоподъемностью в 400 кг при двух пассажирах в кабине (водитель и пассажир).",
+      "Снят с производства в 1981 году из-за успешной конкуренции с гораздо более практичным ижевским «каблуком» ИЖ-2715."
     ],
     "tags": [
       "utility",
@@ -1471,7 +1586,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-401",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 400",
     "model": "Moskvich-401",
     "display_name": "Moskvich-401",
@@ -1492,15 +1607,21 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "An upgraded version of the Moskvich-400, sporting a slightly more powerful engine and refinements.",
     "description_ru": "Модернизированный вариант Москвича-400 с измененным (более мощным) двигателем и улучшенным салоном.",
+    "extended_description": "The Moskvich-401 is a classic Soviet small-class passenger-car sedan, mass-produced at the Moscow Compact Car Plant (MZMA) from 1954 to 1956. It served as a direct modernization of the pioneering Moskvich-400 model. The vehicle was fundamentally identical to the pre-war German Opel Kadett K38 in its exterior styling and body panels, but featured critical mechanical advancements to improve everyday usability and performance under demanding Soviet driving conditions.\\n\\nThe primary highlight of the Moskvich-401 was its upgraded 1.1-liter four-cylinder inline engine (designated Model 401). Developed to replace the older 23 hp engine, the new powerplant boosted output to 26 hp at 4,000 rpm and elevated torque from 55 Nm to 58 Nm, making the car much better at handling hilly terrains and rough country roads. While carrying over the robust unibody monocoque and independent front suspension of its predecessor, the vehicle's curb weight marginally increased from 845 kg to 855 kg due to structural reinforcement and extra interior appointments. Today, the 401 remains highly sought-after by retro car restorers and historians.",
+    "extended_description_ru": "«Москвич-401» — советский легковой автомобиль малого класса с кузовом типа седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА) в 1954–1956 годах. Он представлял собой усовершенствованную модификацию базового «Москвича-400» и конструктивно оставался практически идентичным довоенному немецкому Opel Kadett K38.\\n\\nГлавным отличием модернизированной версии стал новый, более эффективный и выносливый двигатель модели «401». За счет изменения фаз газораспределения, повышения степени сжатия и других мелких доработок его максимальную мощность удалось довести до 26 л.с. при 4000 об/мин (против прежних 23 л.с. при 3600 об/мин у «Москвича-400»). При этом максимальный крутящий момент вырос до 58 Н·м при 2200 об/мин (по сравнению с 55 Н·м при 2000 об/мин у предшественника). Изменения коснулись также и массы машины — снаряженный вес модели 401 вырос до 855 кг по сравнению с 845 кг у модели 400.\\n\\nМосквич-401 выпускался в течение всего двух лет, уступив место на конвейере революционной для завода модели «Москвич-402». За этот короткий срок он успел завоевать огромную любовь потребителей за свою исключительную живучесть, простоту обслуживания и доступность для миллионов простых советских граждан.",
     "facts": [
-      "Represented one of the oldest affordable general passenger cars in USSR",
-      "Allowed more convenient transport over Soviet rural dirt paths",
-      "Known for high chassis reliability"
+      "Armed with an upgraded model 401 engine boosting power to 26 hp (compared to 23 hp in the older Moskvich-400).",
+      "Torque output reached 58 Nm at 2,200 rpm, improving on the 55 Nm at 2,000 rpm of its predecessor.",
+      "The upgrade and extra features slightly increased the curb weight of the 401 to 855 kg (previously 845 kg).",
+      "Practically identical in layout and appearance to the pre-war Opel Kadett K38 design.",
+      "Manufactured at MZMA, which was the historical name of the AZLK plant from 1945 to 1968."
     ],
     "facts_ru": [
-      "Был одним из первых доступных частникам автомобилей в послевоенном СССР",
-      "Конструктивно отличался высокой приспособленностью к суровым грунтовым дорогам",
-      "Считался долговечной советской техникой"
+      "Мощность двигателя подросла до 26 л.с. при 4000 об/мин по сравнению с 23 л.с. при 3600 об/мин у Москвича-400.",
+      "Максимальный крутящий момент увеличился до 58 Н·м при 2200 об/мин против 55 Н·м при 2000 об/мин ранее.",
+      "Снаряженная масса модернизированного автомобиля увеличилась до 855 кг (у Москвича-400 она составляла 845 кг).",
+      "Внешне и по большинству элементов конструкции модель оставалась практически идентичной довоенному Opel Kadett K38.",
+      "Выпускался на МЗМА (Московский завод малолитражных автомобилей) — так с 1945 по 1968 год именовался будущий АЗЛК."
     ],
     "tags": [
       "postwar",
@@ -1518,7 +1639,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-402",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 402/407/403",
     "model": "Moskvich-402",
     "display_name": "Moskvich-402",
@@ -1539,15 +1660,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "A modern design departure from post-war models, introducing pontoon styling and updated suspension.",
     "description_ru": "Новое поколение автомобилей Московского завода, получившее современный кузов понтонного типа.",
+    "extended_description": "The Moskvich-402 is a classic Soviet small-class passenger sedan that was mass-produced at the Moscow Compact Car Plant (MZMA) from 1956 to 1958. Coming as the successor to the outdated Moskvich-401, it was a massive technological leap for the plant, with around 87,000 units manufactured in total.\\n\\nBy the mid-1950s, the pre-war roots of the Opel-Kadett-based Moskvich-400/401 were fully apparent. Lead designer Alexander Andronov spearheaded the development of this new model, using modernized yet production-proven units. To research international engineering trends, MZMA examined global competitors like the Fiat 1100, Simca Aronde, Lancia Aurelia, and Jowett Javelin, ultimately selecting the English Ford Consul as a benchmark for comparative evaluations. The first prototype debuted in 1951, and after twelve experimental builds by 1955, the State Commission approved the model for production.\\n\\nMechanically, the 3-speed transmission and rear axle reduction gear were carried over from the older model, but the rest of the car was thoroughly modern. For the first time in Soviet history, the car featured a curved, single-piece panoramic windshield, telescopic shock absorbers, kingpinless (dubonnet-derived) independent front suspension, push-button door locks, a two-spoke steering wheel, and a spacious 350-liter trunk locked from the inside. The cabin was equipped with standard radio, high-quality seats that could fold completely flat into a sleeping bed, and a robust heating system designed for demanding Soviet climates.\\n\\nTo get the car on the production line, it debuted with a modernized, bored-out side-valve engine putting out 35 hp, requiring higher-octane A-72 fuel and shifting gears via a column-mounted lever. Though larger in every dimension, the 402 weighed only about 100 kg more than its predecessor and could hit a top speed of 105 km/h.",
+    "extended_description_ru": "«Москвич-402» — советский легковой автомобиль малого класса с кузовом типа седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА) в период с 1956 по 1958 год, сменив на конвейере устаревшее семейство «Москвич-400/401». Всего за годы производства было выпущено около 87 000 автомобилей этой модели.\\n\\nК середине 1950-х годов довоенная платформа Opel Kadett на «Москвичах» первого поколения безнадёжно устарела. Под руководством Главного конструктора МЗМА А. Ф. Андронова велась напряжённая работа по созданию новой модели на базе модернизированных, но уже освоенных заводом агрегатов. Советские инженеры детально изучали передовой мировой опыт того времени, тестируя и сравнивая такие образцы, как Fiat 1100, Simca Aronde, Lancia Aurelia и Jowett Javelin, однако главным концептуальным ориентиром и лидером испытаний стал английский Ford Consul. Первый опытный образец нового «Москвича» появился ещё в 1951 году, а спустя четыре года, после создания и всестороннего тестирования 12 экспериментальных прототипов, госкомиссия утвердила один из них в серию.\\n\\nНесмотря на сохранение старой трёхступенчатой коробки передач и редуктора заднего моста, автомобиль полностью соответствовал актуальным запросам мировой моды и суровым реалиям эксплуатации в СССР, отличаясь простотой обслуживания силами владельца на плохих асфальтовых и грунтовых дорогах. В конструкции впервые в советском автопроме применили цельногнутое панорамное ветровое стекло, телескопические амортизаторы двойного действия, прогрессивную бесшкворневую переднюю подвеску, кнопочные наружные дверные замки и двуспицевое рулевое колесо. Машина получила просторный 350-литровый багажник с внутренним приводом замка, салонный отопитель и полноценный радиоприёмник в качестве базового заводского оборудования. Раскладные сиденья легко трансформировались в спальные места.\\n\\nПервоначально «Москвич-402» оснастили существенно модернизированным нижнеклапанным двигателем предшественника, рабочий объём которого увеличили до 1,22 литра, форсировав мощность со скромных 26 до 35 л.с. Новый двигатель был рассчитан на использование более летучего и качественного бензина А-72. Конструктивно физические габариты кузова увеличились во всех направлениях, однако благодаря продуманным инженерным решениям вес машины вырос всего на 100 с небольшим килограммов, а максимальная скорость возросла до 105 км/ч.",
     "facts": [
-      "First Soviet car fitted with panoramic windshield",
-      "Introduced modern radio as a standard option",
-      "Laid the foundation for several successful derivatives"
+      "Around 87,000 units of the Moskvich-402 were produced during its tight two-year manufacturing run.",
+      "Chief Designer Alexander Andronov spearheaded the development, replacing the dated pre-war Opel Kadett design.",
+      "Extensively benchmarked against foreign compact cars, with the English-built Ford Consul proving to be the favorite.",
+      "Introduced modern comforts including a curved panoramic windshield, standard radio, and seats that folded flat into a bed.",
+      "Used a modernized, larger-displacement side-valve engine producing 35 hp and designed to run on A-72 fuel.",
+      "Pioneered telescopic shock absorbers, kingpinless front suspension, and push-button door handles in Soviet production."
     ],
     "facts_ru": [
-      "Первый массовый советский автомобиль с панорамным ветровым стеклом",
-      "Впервые в базовую комплектацию вошел полноценный радиоприемник",
-      "Заложил основу для множества успешных модификаций кузовов"
+      "За два года серийного выпуска Московский завод изготовил около 87 000 экземпляров «Москвича-402».",
+      "Создание автомобиля проходило под руководством Главного конструктора МЗМА Александра Фёдоровича Андронова.",
+      "В процессе разработки изучались Fiat 1100, Simca Aronde и Lancia Aurelia, но ориентиром стал английский Ford Consul.",
+      "Впервые в СССР применили панорамное гнутое ветровое стекло, кнопочные замки дверей и бесшкворневую переднюю подвеску.",
+      "В базовое оснащение входили телескопические амортизаторы, радиоприёмник и сиденья, раскладывающиеся в спальные места.",
+      "Двигатель представлял собой форсированный до 35 л.с. вариант прежнего мотора, рассчитанный под бензин А-72."
     ],
     "tags": [
       "sedan",
@@ -1565,13 +1694,13 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-403",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 402/407/403",
     "model": "Moskvich-403",
     "display_name": "Moskvich-403",
     "display_name_ru": "Москвич-403",
     "years": {
-      "start": 1962,
+      "start": 1963,
       "end": 1965
     },
     "body_type": "sedan",
@@ -1584,17 +1713,25 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       45
     ],
-    "description": "A transitional model blending the body styling of the 407 with the modern running gear of the upcoming 408.",
-    "description_ru": "Переходная модель, сочетавшая классический кузов Москвича-407 и прогрессивные узлы подвески и управления будущего Москвича-408.",
+    "description": "A transitional model blending the body styling and engine of the 407 with the modern running gear design of the upcoming 408.",
+    "description_ru": "Переходная модель, сочетавшая классический кузов и двигатель Москвича-407 с прогрессивной ходовой частью будущего Москвича-408.",
+    "extended_description": "The Moskvich-403 is a classic Soviet compact sedan mass-produced at the Moscow Compact Car Plant (MZMA, later AZLK) from 1963 to 1965. It served as a highly interesting transitional model, filling the conceptual and production gap between the aging Moskvich-407 and the highly anticipated, completely redesigned Moskvich-408. In total, MZMA produced 105,723 units of the Moskvich-403 of various modifications before the model line was fully retired in June 1965.\\n\\nMechanically, the 403 was a unique technical hybrid. From the outside, it retained the exact sheet metal body shell and 45 hp 1.36-liter OHV engine of the Moskvich-407. However, beneath the metal and inside the engine bay lay the advanced rolling elements of the upcoming Moskvich-408: the front suspension, steering gear, hydraulic drum brakes, subframe, and bulkhead. This upgrade introduced suspended clutch and brake pedals (replacing floor-mounted levers), and the clutch action received a modern hydraulic assist circuit. Driver convenience was also enhanced with a factory-equipped manual windshield washer and a newly styled two-spoke steering wheel featuring a horn-ring, which eventually became standard on early Moskvich-408, Moskvich-412, and early Izhevsk-produced derivatives.\\n\\nVisually, distinguishing a standard Moskvich-403 from its close predecessor, the 407, is a subtle art. The primary identifier is the rear light cluster: the Moskvich-403 featured advanced triple-lens tail lamps housed inside a vertical chrome housing, whereas the Moskvich-407 had simple two-lens assemblies. Furthermore, the 403 was offered in several special editions, including the 'Moskvich-403Yu' configured for tropical and southern climates, and the premium 'Moskvich-403E' designed exclusively for demanding export markets.",
+    "extended_description_ru": "«Москвич-403» — советский легковой автомобиль малого класса с кузовом седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА / МЗМЛ, переименованном позже в АЗЛК) с 1963 по 1965 год. Модель вошла в историю советского автопрома как переходная модель между семейством «Москвич-407» и абсолютно новым, перспективным семейством «Москвич-408». Всего до июня 1965 года завод МЗМА успел собрать 105 723 седана модели 403 всех модификаций.\\n\\nС технической точки зрения «Москвич-403» представлял собой очень интересный гибрид. Автомобиль полностью сохранил кузов и 1,36-литровый верхнеклапанный двигатель мощностью 45 л.с. от прежней модели 407, однако вся передняя подвеска, рулевой механизм, тормозная система, подмоторная рама и щит передка были заменены деталями от перспективного «Москвича-408». Такое решение позволило «обкатать» важные агрегаты в массовом производстве ещё до запуска новой модели. Благодаря этому педали сцепления и тормоза стали подвесными (взамен старых напольных элементов), а само сцепление получило надежный гидравлический привод. Салон автомобиля обзавелся долгожданным механическим стеклоомывателем и рулем инновационной формы с хромированным полукольцом сигнала, который впоследствии перекочевал на модели «Москвич-408», «Москвич-412» и их ижевские модификации.\\n\\nВнешне отличить переходной «Москвич-403» от предшественника «Москвича-407» было непросто. Единственным явным кузовным изменением стала установка новой трехсекционной задней светотехники в стильном хромированном вертикальном корпусе (у «Москвича-407» задние фонари были двухсекционными). Для расширения географии поставок завод выпускал специальную тропическую модификацию «Москвич-403Ю» для жарких южных стран, а также усовершенствованную экспортную модификацию «Москвич-403Э», поставлявшуюся во множество стран Европы и Азии.",
     "facts": [
-      "Introduced suspended pedals instead of floor-mounted ones",
-      "Featured self-indexing windshield wipers",
-      "Exported successfully due to robust winter readiness"
+      "A clever technical hybrid featuring the body and engine of the 407 combined with the suspension and steering of the upcoming 408.",
+      "MZMA manufactured 105,723 sedans of various modifications before concluding production in June 1965.",
+      "Introduced modern suspended clutch and brake pedals, complete with a new hydraulic actuator circuit for the clutch.",
+      "Equipped with a mechanical windshield washer and an elegant horn-ring steering wheel later shared with the 408 and 412.",
+      "The primary visual differentiator from the 407 is the three-lens vertical rear tail lamps in individual chrome housings.",
+      "Produced in special versions including the tropical climate '403Yu' and the heavily exported '403E'."
     ],
     "facts_ru": [
-      "Впервые применил подвесные педали сцепления и тормоза взамен напольных",
-      "Получил усовершенствованные стеклоочистители с механическим приводом",
-      "Экспортировался за рубеж благодаря высокой надежности в холодных регионах"
+      "Технический гибрид: сочетал в себе кузов и мотор от «Москвича-407» со всей ключевой агрегатной базой перспективного «Москвича-408».",
+      "До снятия модели с производства в июне 1965 года на заводе МЗМА было выпущено 105 723 седана разных модификаций.",
+      "Получил современные подвесные педали тормоза и сцепления, а само сцепление впервые обрело гидравлический привод.",
+      "В комплектацию вошли механический стеклоомыватель и новый фирменный руль с хромированным ободком звукового сигнала.",
+      "Главное внешнее отличие от модели 407 — трехсекционные задние фонари в едином хромированном корпусе вместо двухсекционных.",
+      "Выпускался в специальных версиях, таких как южный вариант «Москвич-403Ю» и улучшенный экспортный «Москвич-403Э»."
     ],
     "tags": [
       "transitional",
@@ -1612,7 +1749,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-407",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 402/407/403",
     "model": "Moskvich-407",
     "display_name": "Moskvich-407",
@@ -1633,15 +1770,25 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "Perhaps the most successful early Moskvich, boasting a modern overhead-valve engine and dual-tone paint schemes.",
     "description_ru": "Один из наиболее знаковых «Москвичей» рубежа 50-60-х годов с верхнеклапанным мотором и двухцветной окраской.",
+    "extended_description": "The Moskvich-407 is one of the most successful and iconic compact passenger cars in Soviet history, mass-produced at the Moscow Compact Car Plant (MZMA, later known as AZLK) from 1958 to 1963. Over its production span, approximately 250,000 units rolled off the assembly line. Stemming as a direct modernization of the 402 model, the Moskvich-407 featured a newly engineered overhead-valve (OHV) engine. In a brilliant engineering compromise, the outer cylinder block for Model 407 was strategically designed to fit MZMA's existing factory machining lines, while receiving an advanced aluminum cylinder head with overhead valves. Displacing 1,360 cc, this upgraded powerplant generated a robust 45 hp, required higher-octane A-72 gasoline, and bumped the car's top speed to 115 km/h.\\n\\nVisually and practically, the 407 introduced a key-activated starter ignition (replacing older pedal starters), thin decorative stainless steel side mold lines, and a shortened rear door molding (compared to the long vertical molding of the 402). The car evolved steadily: in late 1958, a 'Moskvich' script emerged on the hood; in 1959, a 4-speed manual transmission replaced the older 3-speed gearboxes; and in 1960, the car received a hypoid rear axle and an updated mesh radiator grille.\\n\\nDue to its elegance and extreme reliability, the Moskvich-407 became a major international success. For several years, more than 50% of the entire factory output was exported abroad, finding strong demand not only in Eastern Bloc nations but also in Western markets like Finland, Norway, and France. Export editions featured premium dual-tone paint configurations and modified exterior details. To prioritize the high-margin export demand of the 407, MZMA had to discontinue the low-volume off-road variations, the 410N and 411. Its prestige was famously captured on a massive billboard in Karachi, Pakistan, reading: 'Drive a Moskvich – the best compact car in the world.' Culturally, the car was also a sporty machine, with the factory racing team competing in legendary international motorsport events, including the '1000 Lakes' and 'Acropolis' Rallies.",
+    "extended_description_ru": "«Москвич-407» — легендарный советский легковой автомобиль малого класса с кузовом типа седан. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА / МЗМЛ) с мая 1958 по 1963 год. За годы активного производства с конвейера сошло около 250 000 машин, ставших настоящим символом советской «оттепели». Модель представляла собой глубокую модернизацию предшественника «Москвича-402», ключевым нововведением которой стал новый верхнеклапанный двигатель.\\n\\nКонструкция нового мотора «407» объёмом 1360 куб. см явилась выдающимся достижением инженеров МЗМА: блок цилиндров спроектировали так, чтобы его можно было обрабатывать на уже имеющемся импортном станочном парке завода, а головку блока цилиндров сделали полностью новой, из лёгкого алюминиевого сплава и с верхним расположением клапанов (OHV). При рабочем объёме 1.36 литра силовой агрегат развивал солидные по тем временам 45 л.с., работая на бензине марки А-72 и разгоняя машину до 115 км/ч. Для покупателей новая модель обошлась существенно дороже — её розничная цена составила 25 000 дореформенных рублей (против 15 000 у «Москвича-402»).\\n\\nПомимо мотора, «Москвич-407» обрёл замок зажигания со встроенным ключом запуска стартера (вместо прежней ножной педали) и новые хромированные молдинги. Внешне ранний 407-й отличался от 402-го укоротившимся вертикальным наклонным молдингом на задней двери. Машина планомерно развивалась: в конце 1958 года на капоте появилась надпись «Москвич», в декабре 1959 года внедрили прогрессивную 4-ступенчатую коробку передач, а в 1960 году автомобиль оснастили современным гипоидным задним мостом и новой сетчатой решёткой радиатора.\\n\\nМодель пользовалась грандиозным успехом за рубежом. Несколько лет подряд более половины выпускаемых «Москвичей-407» уходили на экспорт в социалистические, а также в капиталистические государства Европы — Финляндию, Норвегию и Францию. Экспортные серии выделялись эффектной двухцветной окраской кузова (иногда шедшей и на внутренний рынок) и улучшенным оформлением экстерьера. Ради максимального наращивания выпуска экспортного 407-го МЗМА даже пришлось пойти на снятие с конвейера полноприводных моделей «Москвич-410Н» и «411». В пакистанском Карачи долго красовался плакат «Ездите на Москвиче — лучшем малолитражном автомобиле мира». Семейство включало версии такси с таксометром и зелёным огоньком, модификации с ручным управлением для инвалидов, исполнение для южного климата «407Ю» и экспортный вариант «407Э». Заводская команда на «Москвичах-407» успешно представляла СССР на сложнейших международных ралли — ралли «Тысяча озёр» в Финляндии и ралли «Акрополис» в Греции.",
     "facts": [
-      "Over 50% of production was exported abroad",
-      "Won awards at the Brussels World's Fair in 1958",
-      "Widely raced in European rally championships"
+      "Approximately 250,000 units of the Moskvich-407 were manufactured at MZMA from 1958 to 1963.",
+      "The Model 407 OHV engine was engineered with an aluminum cylinder head, producing 45 hp from a 1.36L displacement.",
+      "Cost substantially more than its predecessor, priced at 25,000 rubles compared to 15,000 rubles for the old 402.",
+      "Over 50% of production was exported to foreign markets, including Finland, Norway, France, and parts of Asia.",
+      "Evolved incrementally: added a 4-speed gearbox in 1959, a hypoid rear axle in 1960, and a mesh radiator grille in 1960.",
+      "Successfully competed at the historic international motorsport events '1000 Lakes' (Finland) and 'Acropolis' (Greece) rallies.",
+      "Differentiated from the 402 by a shorter rear-door vertical molding, a thin stainless steel side molding, and a key-start ignition."
     ],
     "facts_ru": [
-      "Более половины выпуска уходило на экспорт за рубеж",
-      "Награжден золотой медалью Всемирной выставки в Брюсселе в 1958 году",
-      "Успешно выступал на международных раллийных трассах"
+      "За годы выпуска на МЗМА (с 1958 по 1963 год) было изготовлено порядка 250 000 автомобилей этой модели.",
+      "Новый верхнеклапанный двигатель объёмом 1,36 л получил алюминиевую ГБЦ и развивал максимальную мощность 45 л.с.",
+      "Розничная стоимость автомобиля сильно выросла и составила 25 000 рублей против 15 000 рублей за прежнюю модель 402.",
+      "Более 50% выпуска поставлялось на экспорт, причём не только в соцстраны, но и в Финляндию, Норвегию и Францию.",
+      "Внедрялся поэтапно: в 1959 году появилась 4-ступенчатая коробка передач, а в 1960 году — гипоидный задний мост и новая облицовка радиатора.",
+      "Заводская команда МЗМА на седанах «Москвич-407» успешно выступала в престижных ралли «Тысяча озёр» и «Акрополис».",
+      "Внешне отличался от 402-го укороченным молдингом задней двери, тонким поясным молдингом на боковине кузова и запуском двигателя с ключа."
     ],
     "tags": [
       "classic",
@@ -1659,7 +1806,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-410",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 410",
     "model": "Moskvich-410",
     "display_name": "Moskvich-410",
@@ -1680,15 +1827,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "A unique Soviet passenger car with four-wheel drive and elevated ground clearance, ahead of the modern crossover curve.",
     "description_ru": "Уникальный советский легковой автомобиль повышенной проходимости со схемой полного привода 4х4 и кузовом седан.",
+    "extended_description": "The Moskvich-410 is a legendary Soviet four-wheel-drive passenger car mass-produced at the Moscow Compact Car Plant (MZMA) from 1957 to 1961. Designed specifically to meet the needs of rural residents, doctors, and agricultural officers, it was ahead of its time, pioneering the concept of a high-clearance off-road passenger sedan decades before the modern crossover era.\\n\\nDerived from the standard Moskvich-402 and later the 407, the 410 featured a heavily reinforced unibody monocoque, the robust steering gear from the GAZ-M-20 'Pobeda', an engine oil cooler, and a specialized front-wheel-drive steering axle equipped with Bendix-Weiss constant velocity joints. To ensure supreme reliability on thick mud and unpaved country roads, engineers replaced the base model's telescopic dampers with dependent front suspension on longitudinal leaf springs complemented by heavy-duty lever-type hydraulic shock absorbers. Oversized 6.40-15\" off-road tires raised its ground clearance to an impressive 220 mm—putting it on par with the military-grade GAZ-69. The vehicle could confidently ford water up to 0.3 meters deep and scale steep gradients of up to 33 degrees.\\n\\nIn 1958, MZMA introduced the modernized 'Moskvich-410N' and, a year later, the 'Moskvich-411' station wagon. These models inherited the more powerful overhead-valve engine and 4-speed manual gearbox of the Moskvich-407. By reducing the final drive ratio, the overall transmission torque ratio widened from 8.25 to 8.9, raising top speed by 10 km/h. Despite its amazing capabilities, it was never meant to compete with pure military trucks; the official owner's manual explicitly cautioned drivers that the car was a high-mobility vehicle rather than an absolute all-terrain vehicle, advising against driving it on extremely destructive roads. Variants included the original 410, the 410N, the 411 station wagon, and a single prototype van designated Moskvich-431.",
+    "extended_description_ru": "«Москвич-410» — советский легковой автомобиль повышенной проходимости с колесной формулой 4×4. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА) с 1957 по 1961 год. Он представлял собой оригинальный гибрид комфортного городского седана и выносливого внедорожника, созданный для нужд сельских жителей, врачей и агрономов. По концепции модель на десятилетия опередила появление современных кроссоверов.\\n\\nВ отличие от базового дорожного «Москвича-402», полноприводная модификация получила усиленный несущий кузов, более выносливый рулевой механизм от ГАЗ-М-20 «Победа» и масляный радиатор в системе смазки. Для передачи крутящего момента на передние колеса конструкторы разработали оригинальный ведущий мост со специальными шарнирами равных угловых скоростей (ШРУС) типа «Бендикс-Вейсс» и двухступенчатую раздаточную коробку с ручным управлением. Базовую переднюю независимую подвеску заменили зависимой на продольных рессорах с рычажными гидроамортизаторами, которые гораздо лучше переносили грязь и механические воздействия по сравнению с телескопическими. Специальные шины увеличенной размерности 6,40—15\" с глубоким внедорожным «вездеходным» рисунком протектора позволили увеличить клиренс до внушительных 220 мм — на уровень армейского вездехода ГАЗ-69. Благодаря этому «Москвич» легко преодолевал броды глубиной до 0,3 м и крутые подъемы до 33 градусов.\\n\\nМодернизированный в 1958 году седан «Москвич-410Н» и пятидверный универсал «Москвич-411» (выпускавшийся с 1959 года) получили новый более мощный верхнеклапанный двигатель и четырёхступенчатую коробку передач от «Москвича-407». За счет снижения передаточного числа редуктора главной передачи при одновременном расширении силового диапазона трансмиссии (с 8,25 до 8,9) максимальная скорость машины выросла на 10 км/ч. Тем не менее, автомобиль не позиционировался как полноценный армейский вездеход класса ГАЗ-69. Заводская инструкция прямо предупреждала владельцев, что машина характеризуется лишь повышенной проходимостью и не предназначена для тяжелого глухого бездорожья. Семейство включало базовый седан 410, модернизированный седан 410Н, универсал 411 и единственный опытный деревянный фургон 431.",
     "facts": [
-      "Essentially a 4x4 off-road passenger sedan",
-      "Designed for rural doctors and agriculture authorities",
-      "Had high center of gravity but exceptional obstacle clearing"
+      "A unique passenger 4x4 sedan featuring an impressive 220 mm ground clearance, on par with the military-grade GAZ-69.",
+      "Engineered with a reinforced unibody structure, a Pobeda-derived steering gear, and a manual two-speed transfer case.",
+      "Utilized dependent leaf-spring suspension and dirt-resistant lever-type shock absorbers to handle rural conditions.",
+      "Capable of navigating water crossings up to 0.3 meters deep and climbing steep slopes of up to 33 degrees.",
+      "The upgraded 1958 '410N' and '411' wagon featured the newer, more powerful overhead-valve engine and 4-speed gearbox from the Moskvich-407.",
+      "The owner's manual explicitly noted that the car was for high-throughput road use rather than a full military-class terrain-goer."
     ],
     "facts_ru": [
-      "Полноприводный внедорожный седан, опередивший концепцию современных кроссоверов",
-      "Предназначался для сельской интеллигенции, врачей и агрономов",
-      "Обладал гигантским клиренсом, но требовал аккуратности на поворотах"
+      "Обладал внушительным дорожным просветом в 220 мм (на уровне ГАЗ-69) и оригинальным дорожным кузовом седан 4×4.",
+      "Получил усиленный несущий кузов, рулевой механизм от ГАЗ-М-20 «Победа» и двухступенчатую раздаточную коробку.",
+      "Зависимая подвеска на рессорах с рычажными амортизаторами лучше переносила грязь, чем телескопическая подвеска.",
+      "Мог преодолевать брод глубиной до 0,3 метра и взбираться на крутые подъемы крутизной до 33 градусов.",
+      "Модернизированные версии «410Н» и универсал «411» получили верхнеклапанный мотор и 4-ступенчатую КПП от «Москвича-407».",
+      "Инструкция по эксплуатации предупреждала, что машина имеет повышенную проходимость, но не является полноценным вездеходом."
     ],
     "tags": [
       "offroad",
@@ -1706,7 +1861,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
   },
   {
     "id": "moskvich-423",
-    "factory": "AZLK",
+    "factory": "MZMA",
     "family": "Moskvich 402/407/403",
     "model": "Moskvich-423",
     "display_name": "Moskvich-423",
@@ -1727,15 +1882,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "The first mass-produced five-door station wagon in the Soviet Union, built on the stable Moskvich-402/407 platform.",
     "description_ru": "Первый в СССР серийный пятидверный универсал на базе Москвича-402 и Москвича-407.",
+    "extended_description": "The Moskvich-423 is a classic Soviet utility passenger car with a five-door station wagon body layout. Mass-produced at the Moscow Compact Car Plant (MZMA, later known as AZLK) from 1957 to 1958, it was based on the popular Moskvich-402 sedan. This model holds a historic place in Soviet motoring as the country's first mass-produced passenger station wagon available to the general public. Later, from 1958 to 1963, MZMA produced the upgraded 'Moskvich-423N' variant, based on the modernized Moskvich-407 sedan.\\n\\nTo optimize manufacturing costs, the station wagon retained many structural components of the sedan, including the side body panels with curved rain gutters and the rear panel with a high trunk sill. Inside, the rear bench seat folded completely flat, forming a spacious cargo compartment measuring 1,473 mm in length and 1,220 mm in width. With the rear seats folded down, the vehicle was capable of transporting 250 kg of cargo along with two occupants. To maximize cargo space, a designated horizontal niche was integrated beneath the floor to hold the spare wheel. Mechanically, the rear leaf-spring suspension was upgraded with leaves that were 5 mm wider than those on the basic Moskvich-402. The rear fifth door flipped open to the left, with its sill resting at a height of 760 mm from the ground. In 1961, a simplified wagon body style was introduced, featuring rectangular rear door frames and a continuous water gutter running along the full length of the roof.\\n\\nThe Moskvich-423 achieved high international acclaim when it, alongside the Moskvich-407, was awarded gold medals at the Brussels World's Fair (Expo 58) in August 1957.",
+    "extended_description_ru": "«Москвич-423» — советский легковой грузопассажирский автомобиль малого класса с пятидверным кузовом типа универсал. Серийно выпускался на Московском заводе малолитражных автомобилей (МЗМА / МЗМЛ, ставшим впоследствии АЗЛК) в 1957–1958 годах. Модель была спроектирована на базе седана «Москвич-402» и вошла в историю советского автопрома как первый в СССР серийный грузопассажирский универсал. Позднее, в период с 1958 по 1963 год, завод выпускал его преемника — «Москвич-423Н», представлявшего собой универсал на базе модернизированного седана «Москвич-407».\\n\\nДля удешевления и упрощения производства в конструкции универсала использовалось множество деталей от базового седана, включая боковые панели кузова с характерными изогнутыми водосточными желобками и заднюю панель с высоким порогом крышки багажника. Однако салон автомобиля отличался завидной практичностью: заднее сиденье легко складывалось, образуя ровную грузовую платформу длиной 1473 мм и шириной 1220 мм. В таком положении машина могла перевозить двух человек и 250 кг груза. Запасное колесо разместили в специальной горизонтальной нише под полом багажника. Чтобы подвеска справлялась с возросшими нагрузками, ширину листов задних рессор увеличили на 5 мм по сравнению с моделью 402. Задняя пятая дверь кузова открывалась в левую сторону, а высота погрузочного порога составляла 760 мм от земли. Начиная с 1961 года завод перешел на выпуск упрощенной версии кузова с угловатыми рамками задних дверей и цельным прямым водосточным желобком вдоль всей кромки крыши.\\n\\nУниверсал получил высокое признание не только на родине, но и за рубежом. В августе 1957 года семейство автомобилей «Москвич-423» и «Москвич-407» завоевало золотые медали на Всемирной автомобильной выставке в Брюсселе (Экспо-58), закрепив за маркой международное признание.",
     "facts": [
-      "Rear seat folded flat to load up to 250 kg of cargo",
-      "Highly prized by gardeners and suburban families",
-      "Rear door opened to the left column side, a unique orientation"
+      "The first mass-produced passenger-utility station wagon in the USSR, designed for general public purchase.",
+      "The rear bench seat folded down flat to yield a cargo zone 1,473 mm long, supporting up to 250 kg of payload.",
+      "Retained side body panels and high rear cargo sill from the baseline Moskvich-402 sedan to reuse press tooling.",
+      "Fitted with leaf springs 5 mm wider than the sedan for increased cargo carriage capacity.",
+      "The single rear door swiveled open horizontally to the left, featuring a loading height of 760 mm.",
+      "Awarded gold medals at the prestigious Brussels World's Fair (Expo 58) in August 1957 alongside the Moskvich-407."
     ],
     "facts_ru": [
-      "Заднее сиденье трансформировалось в плоский пол для грузов массой до 250 кг",
-      "Был огромной ценностью для советских дачников",
-      "Задняя багажная дверь открывалась вбок налево, что необычно"
+      "Первый в Советском Союзе массовый грузопассажирский автомобиль с кузовом типа универсал, доступный для населения.",
+      "Заднее сиденье складывалось в ровный пол кузова, создавая отсек длиной 1473 мм и шириной 1220 мм для перевозки 250 кг груза.",
+      "Универсал унаследовал боковину кузова и высокий погрузочный порог от седана ради экономии на штампах.",
+      "Для повышения грузоподъемности листы задних рессор были сделаны на 5 мм шире, чем у седана «Москвич-402».",
+      "Задняя дверь открывалась вбок налево, а запасное колесо пряталось в горизонтальную нишу под полом багажника.",
+      "В августе 1957 года семейство «Москвич-423» и «407» удостоилось престижных золотых медалей на автовыставке в Брюсселе."
     ],
     "tags": [
       "wagon",
@@ -1772,17 +1935,27 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       50
     ],
-    "description": "The station wagon sister model of Moskvich-408, with vertical or horizontal tailgate designs over its lifespan.",
-    "description_ru": "Пятидверный компактный универсал на базе модели Москвич-408.",
+    "description": "The five-door station wagon counterpart to the Moskvich-408, offering great versatility and sturdy heavy-duty layout.",
+    "description_ru": "Пятидверный компактный грузопассажирский универсал на базе модели Москвич-408.",
+    "extended_description": "The Moskvich-426 is a classic Soviet small-class passenger-cargo station wagon that was mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1967 to 1976. Launching in March 1967, this versatile vehicle was engineered to function both as an everyday family car and as an highly practical utility transporter, accommodating either 5 passengers, 4 passengers with 100 kg of cargo, or 2 passengers with a substantial load of up to 250 kg.\\n\\nMechanically, the 426 was fitted with the reliable 1.4-liter inline-four engine producing 50 hp inherited from the Moskvich-408 sedan. This directly defined the entry-level wagon, contrasting it with the sibling model, the Moskvich-427, which featured the more premium 1.5-liter, 75 hp engine from the Moskvich-412. The Moskvich-426 shared deep commonality with the basic 408 sedan regarding the powerplant, major chassis components, and overall interior equipment. However, it received unique chassis adaptations to handle heavy payloads: its rear semi-elliptic leaf springs were shorter and stiffer than those on the sedan, and it rode on robust 6.40-13 tires rated for increased load capacity. The interior gained high versatility from a folding rear bench, which dramatically expanded the flat luggage floor. Beneath a hatch in the rear floor sat the spare wheel, jack, and tools layout, maintaining trunk cleanliness.\\n\\nThe fifth door of early models (produced up to 1972) had a split dual-leaf layout where the upper glass portion swung up and the lower steel section folded down. Later, the structure was simplified to a one-piece single door that tipped entirely upwards, establishing much better weather sealing. The car was offered in many custom specifications, including the medical '426M', '426T' taxi, '426E/426I' exports, tropical '426Yu', '426K' assembly kits, right-hand-drive '426P', and the modernized safer '426IE' reflecting the updated passive safety standards from 1969.",
+    "extended_description_ru": "«Москвич-426» — советский пятидверный грузопассажирский автомобиль малого класса с кузовом типа универсал. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1967 по 1976 год. Проектировался как практичная универсальная версия базового седана «Москвич-408».\\n\\nПроизводство универсала стартовало в марте 1967 года. Автомобиль предназначался для разностороннего использования: в чисто пассажирском варианте он перевозил 5 человек, а при сложенном заднем сиденье превращался в грузовой фургон, способный принять на борт 4 пассажиров и 100 кг груза или 2 человек и до 250 кг багажа. Благодаря складываемому заднему ряду сидений площадь погрузочного пола значительно возрастала, а под полом багажника в специальной нише удобно размещались запасное колесо, домкрат и набор дорожного инструмента.\\n\\nНа «Москвич-426» устанавливался выносливый 1,4-литровый нижневальный двигатель мощностью 50 л.с. от модели «Москвич-408». В этом заключалось его основное отличие от параллельно выпускавшейся модели «Москвич-427», комплектовавшейся более мощным 1,5-литровым мотором УЗАМ-412. Конструктивно универсал 426 был предельно унифицирован с седаном 408 по двигателю, трансмиссии и элементам ходовой части, за исключением задней подвески (на универсал устанавливались укороченные и более жесткие рессоры) и шин увеличенной грузоподъемности размерностью 6.40–13.\\n\\nКак и на ранних фургонах, задняя багажная дверь на машинах первых лет выпуска (до 1972 года) состояла из двух половин: верхняя со стеклом поднималась наверх, а нижняя откидывалась вниз. Впоследствии конструкция была упрощена в пользу единой цельной двери, открывающейся вверх, что сделало багажное отделение значительно более герметичным. Модель имела множество специализированных исполнений, в том числе медицинский универсал «426М», такси «426Т», экспортный «426Э», тропический «426Ю», праворульный «426П», а также модернизированные версии «426И» и «426ИЭ», соответствующие ужесточенным европейским требованиям пассивной безопасности безопасности с конца 1969 года.",
     "facts": [
-      "Early versions had an unusual split-tailgate styling",
-      "Widely distributed among Soviet postal networks",
-      "Outstanding utility for local regional clinics"
+      "A highly versatile cargo-passenger vehicle launched in March 1967 based on the popular Moskvich-408 platform.",
+      "Capable of carrying 5 passengers, or transforming to hold up to 250 kg of heavy cargo with 2 passengers onboard.",
+      "Powered by the 1.4-liter 50 hp inline-4 engine, distinguishing it from the 1.5-liter UZAM-powered Moskvich-427.",
+      "Adapted for high loading stresses with shorter, stiffer rear leaf springs and wider 6.40-13 specification tires.",
+      "Equipped with a folding rear seat block and a dedicated tool and spare wheel compartment built underneath the floorboard.",
+      "Early builds up to 1972 featured a horizontally split double-half tailgate, replaced later by a tighter single lift door.",
+      "Manufactured in diverse variants including the medical '426M', taxi '426T', export '426E/426I', southern '426Yu', and right-hand drive '426P'."
     ],
     "facts_ru": [
-      "Ранние версии имели двухстворчатую заднюю дверь",
-      "Часто использовался в почтовых отделениях",
-      "Отличался высокой практичностью в условиях работы служб скорой помощи городов"
+      "Многоцелевой грузопассажирский пятидверный универсал на базе седана «Москвич-408», серийный выпуск которого начался в марте 1967 года.",
+      "Обладал гибким салоном: перевозил до 5 человек либо трансформировался для транспортировки 250 кг груза при двух пассажирах.",
+      "Оснащался проверенным 1,4-литровым 50-сильным двигателем, в отличие от старшего «Москвича-427» с 1,5-литровым уфимским мотором.",
+      "Для компенсации высоких нагрузок получил укороченные прочные задние рессоры и шины увеличенной грузоподъемности 6.40-13.",
+      "Обладал механизмом складывания заднего сиденья в ровный пол со скрытой подпольной нишей под запаску, домкрат и инструмент.",
+      "До 1972 года оборудовался оригинальной двустворчатой задней дверью, заменённой затем на герметичную цельную подъёмную.",
+      "Выпускался во множестве модификаций: санитарной («426М»), такси («426Т»), экспортных («426Э/И»), тропической («426Ю») и редкой праворульной («426П»)."
     ],
     "tags": [
       "wagon",
@@ -1821,15 +1994,23 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "A high-performance station wagon utilizing the advanced UZAM engine from the Moskvich-412 family.",
     "description_ru": "Мощный пятидверный универсал на базе легкового Москвича-412.",
+    "extended_description": "The Moskvich-427 is a classic Soviet small-class passenger-cargo station wagon. Mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1967 to 1976, it was the utility version of the modern third-generation Moskvich-412 sedan.\\n\\nThe defining structural difference between the Moskvich-427 and its visual twin, the Moskvich-426, was the engine. While the 426 was fitted with the older, less powerful 1.4-liter, 50 hp engine from the Moskvich-408, the 427 was equipped with the modern 1.5-liter, 75 hp overhead-cam aluminum block engine from the Moskvich-412. This engine drastically upgraded the station wagon's acceleration, pulling power, and performance under heavy loads.\\n\\nSimilar to early builds of the Moskvich-426, the fifth tail door on early-production Moskvich-427s was split horizontally into two sections (a dual-leaf gate). It was only in 1972 that the rear assembly was modernized into a single-piece, lifting tailgate that pivoted upwards. Interestingly, the design of the rear tail lights remained completely unchanged throughout the entire nine-year production lifespan, maintaining its classic vertical shape. In 1969, the entire 412 family, including the wagon, underwent a major safety modernization to match European standards, adding the letters 'IE' to the model name to denote 'Moskvich-427IE'. With its supreme loading versatility, 75 hp engine, and sturdy leaf-spring rear suspension, the 427 was highly prized both domestically and on export markets.",
+    "extended_description_ru": "«Москвич-427» — советский пятидверный легковой грузопассажирский автомобиль малого класса с кузовом типа универсал. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1967 по 1976 год. Модель представляла собой практичную грузопассажирскую версию популярного седана третьего поколения «Москвич-412».\\n\\nГлавным и ключевым конструктивным отличием модели «427» от её внешнего и конструктивного близнеца «Москвич-426» был более мощный силовой агрегат. На модель 426 устанавливался старый нижневальный двигатель объёмом 1,4 литра (50 л.с.) от «Москвича-408», тогда как «Москвич-427» оснащался новейшим, полностью алюминиевым 1,5-литровым верхневальным двигателем уфимского завода (УЗАМ-412) мощностью 75 л.с. Это техническое превосходство обеспечивало универсалу великолепную приёмистость, высокую крейсерскую скорость и способность легко перевозить тяжелые грузы даже на крутых подъемах.\\n\\nКак и на ранних универсалах «Москвич-426», пятая дверь задка изначально имела сложную двустворчатую конструкцию (верхняя половина поднималась вверх, нижняя откидывалась вниз). Лишь в 1972 году задняя дверь была модернизирована и стала цельной, открывающейся вверх. Примечательно, что задние фонари на протяжении всего периода выпуска сохраняли свою оригинальную форму, не претерпевая изменений. В 1969 году всё семейство автомобилей «Москвич-412» прошло глубокую модернизацию, направленную на выполнение строгих требований европейской пассивной безопасности. Все модели получили дополнительный индекс «ИЭ». Не стал исключением и универсал, получивший модернизированный индекс «Москвич-427ИЭ». Машина была крайне популярна в качестве семейного автомобиля для загородных поездок, а также активно поставлялась на экспорт в различные европейские страны.",
     "facts": [
-      "Fitted with the high-revving 1.5L overhead cam alloy engine",
-      "Very popular on various export markets in Europe",
-      "Accelerated significantly faster than earlier wagon counterparts"
+      "A versatile passenger-freight station wagon version based on the high-performance Moskvich-412 platform.",
+      "Distinguished from the Moskvich-426 by its much stronger 1.5-liter, 75 hp UZAM aluminum engine (vs. the 1.4-liter 408 unit).",
+      "Early builds utilized a split dual-leaf rear tailgate, which was replaced in 1972 with a single-piece lifting door.",
+      "The layout and styling of the rear tail lights remained completely identical throughout the entire production cycle.",
+      "Renamed to 'Moskvich-427IE' in 1969 following a major passive safety and design modernization to comply with European limits.",
+      "Equipped with beefier rear leaf springs to stably carry 250 kg of cargo combined with two passengers."
     ],
     "facts_ru": [
-      "Оснащался передовым легкосплавным двигателем уфимского завода",
-      "Пользовался огромной популярностью за рубежом благодаря приемистости",
-      "Превосходил большинство советских автомобилей по динамике разгона"
+      "Грузопассажирский пятидверный универсал на агрегатной базе мощного седана третьего поколения «Москвич-412».",
+      "Главное отличие от внешне идентичного «Москвича-426» — современный и мощный 1,5-литровый мотор УЗАМ-412 мощностью 75 л.с.",
+      "Задняя пятая дверь на ранних выпусках была двустворчатой, но с 1972 года уступила место более практичной цельной подъёмной двери.",
+      "Форма задних фонарей оставалась полностью неизменной на протяжении всего периода производства модели (1967–1976 гг.).",
+      "В 1969 году модернизирован до версии «Москвич-427ИЭ» в соответствии с европейскими стандартами пассивной безопасности.",
+      "Имел грузовое пространство с трансформируемым задним рядом сидений для перевозки до 250 кг груза при двух пассажирах."
     ],
     "tags": [
       "wagon",
@@ -1853,7 +2034,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "display_name": "Moskvich-433",
     "display_name_ru": "Москвич-433",
     "years": {
-      "start": 1966,
+      "start": 1967,
       "end": 1976
     },
     "body_type": "van",
@@ -1868,15 +2049,25 @@ export const AZLK_VEHICLES: Vehicle[] = [
     ],
     "description": "A neat commercial three-door metal delivery van built on the Moskvich-408 platform.",
     "description_ru": "Трехдверный цельнометаллический малый развозной фургон на базе агрегатов Москвича-408.",
+    "extended_description": "The Moskvich-433 is a classic Soviet small-class three-door light commercial delivery van. Mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1967 to 1976, it represents the specialized utility derivative of the Moskvich-408 passenger sedan, from which it inherited its 1.4-liter engine. This directly distinguished it from the sibling Moskvich-434 model, which featured a more powerful 1.5-liter engine.\\n\\nVisually, the Moskvich-433 featured a much cleaner and more refined aesthetic than previous generation Soviet vans, adopting solid rear wings without traces of door cutouts, and elegant corrugated steel stamping panels in place of windows. Structurally, early production runs incorporated a solid security bulkhead between the front cabin and the cargo hold, fitted with a small circular window. While providing safety, this screen made accessing cargo deep in the rear quite difficult. To resolve this, later versions omitted the upper half of the bulkhead, leaving a partition level with the seat backs to allow driver access from the front. The rear tailgate initially consisted of two halves: a top pane swinging upwards and a bottom door folding down. The upper door could either be equipped with regular wagon window glass or a solid corrugated metal shield. In 1972, this assembly was modernized into a single-piece, fully-glazed rear door that lifted upwards.\\n\\nIn December 1969, the 433 underwent a comprehensive modernization matching the base sedan, receiving the 'IE' safety suffix and a new front-end layout featuring East German-made (GDR) hexagonal headlights and a redesigned grille. Specialized editions included the tropical '433Yu', the export-oriented '433E', and the right-hand-drive '433P'. In 1976, production yielded to its successor model, the Moskvich-2733, which was based on the Moskvich-2138 platform.",
+    "extended_description_ru": "«Москвич-433» — советский малолитражный грузопассажирский автомобиль с трехдверным кузовом типа фургон. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1967 по 1976 год. Модель являлась специализированной коммерческой модификацией базового седана «Москвич-408», от которого унаследовала 1,4-литровый двигатель. В этом заключалось её ключевое отличие от модели «Москвич-434», оснащавшейся новым 1,5-литровым мотором УЗАМ-412.\\n\\nВнешность нового фургона стала значительно благороднее машин предыдущего поколения: кузов получил цельные боковины без видимых швов дверных проёмов и стильные гофрированные стальные панели вместо боковых стёкол. Первые партии «Москвича-433» снабжались сплошной металлической перегородкой между кабиной водителя и грузовым отсеком, снабжённой лишь маленьким круглым окошком. Однако такая компоновка затрудняла доступ к вещам в глубине кузова, поэтому позже верхнюю часть перегородки заменили низким бортиком на уровне спинок сидений, облегчив подступ к грузу из кабины. Задняя дверь изначально состояла из двух частей: верхняя поднималась вверх, а нижняя откидывалась вниз. При этом верхняя половина могла быть как застеклённой, так и глухой цельнометаллической гофрированной. С 1972 года дверь задка сделали единой цельной конструкцией, поднимавшейся вверх и оснащённой стандартным остеклением.\\n\\nВ декабре 1969 года фургон прошёл масштабное обновление вслед за базовым седаном, получив литеры «ИЭ» в индексе в знак соответствия строгим европейским нормам пассивной безопасности. Главным внешним новшеством рестайлинга стала облицовка радиатора с новыми прямоугольными фарами производства ГДР. Завод выпускал специальные модификации модели: «433Ю» для жарких тропических регионов, экспортный «433Э» и праворульный «433П». После завершения производства в 1976 году преемником стал модернизированный фургон «Москвич-2733» на платформе модели «Москвич-2138».",
     "facts": [
-      "Featured corrugated dark side panels to increase body strength",
-      "A cabin screen separated driver and heavy crates",
-      "A classic emblem of Soviet retail deliveries"
+      "A light three-door commercial delivery van based on the Moskvich-408 sedan and powered by its 1.4-liter engine.",
+      "Upgraded from prior generations with solid, seamless rear wings and structural corrugated metal window panels.",
+      "Early builds featured a solid cabin bulkhead with a small round glass, later replaced by a low partition to ease cargo access.",
+      "The original modular rear tailgate split horizontally into two sections, but was replaced with a one-piece glazed raising door in 1972.",
+      "Available in the tropical '433Yu' edition, the export '433E', and the right-hand drive '433P' layout.",
+      "Upgraded in December 1969 with GDR-produced hexagonal headlights and safety compliance features (receiving the 'IE' index).",
+      "Succeeded in 1976 by the Moskvich-2733 commercial variant of the newer Moskvich-2138 family."
     ],
     "facts_ru": [
-      "Имел гофрированные глухие боковины для усиления прочности кузова",
-      "Кабина отделялась глухой перегородкой для безопасности водителя",
-      "Служил классическим символом службы доставки продуктовых магазинов СССР"
+      "Малолитражный трёхдверный коммерческий фургон на базе седана «Москвич-408» с двигателем объёмом 1,4 литра.",
+      "Имел более эстетичные и прочные цельные задние боковины без следов дверных проёмов и гофрированные панели вместо окон.",
+      "Ранние версии имели глухую перегородку салона с маленьким круглым окном, заменённую затем на низкий бортик.",
+      "Двухстворчатая задняя дверь (верх поднимался, низ откидывался) в 1972 году уступила место единой подъёмной остеклённой двери.",
+      "Выпускался в модификациях: тропическая («433Ю»), экспортная («433Э») и праворульная («433П»).",
+      "В декабре 1969 года модернизирован до версии «433ИЭ» с прямоугольными фарами производства ГДР и новой решёткой радиатора.",
+      "В 1976 году уступил место на конвейере преемнику — модели «Москвич-2733» на агрегатной базе «Москвича-2138»."
     ],
     "tags": [
       "utility",
@@ -1901,7 +2092,7 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "display_name_ru": "Москвич-434",
     "years": {
       "start": 1968,
-      "end": 1976
+      "end": 1973
     },
     "body_type": "van",
     "body_type_ru": "фургон",
@@ -1913,17 +2104,27 @@ export const AZLK_VEHICLES: Vehicle[] = [
     "power_hp": [
       75
     ],
-    "description": "The upgraded high-performance commercial van featuring the robust 75 hp engine.",
-    "description_ru": "Модернизированный коммерческий фургон с мощным 75-сильным уфимским двигателем.",
+    "description": "The upgraded high-performance commercial van based on the Moskvich-412, equipped with a powerful 75 hp engine and enhanced load adaptations.",
+    "description_ru": "Модернизированный грузопассажирский коммерческий фургон на платформе Москвич-412 с мощным 75-сильным двигателем.",
+    "extended_description": "The Moskvich-434 is a classic Soviet small-class three-door commercial delivery van, mass-produced at the Leninsky Komsomol Automobile Plant (AZLK) from 1968 to 1973. It served as the robust, higher-performance cargo-carrying counterpart of the famous Moskvich-412 passenger sedan, inheriting its advanced 1.5-liter engine. This directly distinguished it from the sibling Moskvich-433 van, which utilized the older 1.4-liter engine from the Moskvich-408 model.\\n\\nTechnically, the Moskvich-434 was a highly robust utility vehicle with a 4x2 wheel layout. Operating on sealed roads, it was rated to transport a driver, one passenger, and a substantial payload of up to 400 kg, carrying a curb weight of 1,040 kg. The heart of the van was its '412' inline-four overhead-valve engine which displaced 1,478 cc and delivered a high output of 75 hp (55 kW) at 5,800 rpm, paired with a dry single-plate clutch and a 4-speed manual gearbox. To safely govern stopping, it received a shoe-drum brake system with a hydraulic drive and hydraulic booster assist. Its chassis combined a heavy-duty independent wishbone-spring front suspension with a highly durable leaf-spring rear axle supported by two semi-elliptic leaf springs, enabling a top speed of 115 km/h.\\n\\nIn terms of design evolution, the 434 shared the 433's clean body shell layout featuring solid side wings and corrugated metal window panels. Early production runs featured a horizontally split two-piece tailgate, where the upper glass section swung open upwards and the bottom tail leaf folded down. From 1972 on, the tailgate was upgraded to a modern one-piece lifting rear door with built-in glazing, introducing superior dust and weather sealing. In parallel, a December 1969 modernization updated the front styling to include East German-produced (GDR) hexagonal headlights and a mesh grille, along with the 'IE' passive safety suffix. Specialized derivatives included the tropical '434Yu', export-oriented '434E', and right-hand drive '434P'. The model line concluded production in 1973, eventually succeeded by the Moskvich-2734 in 1976.",
+    "extended_description_ru": "«Москвич-434» — советский малолитражный грузопассажирский автомобиль малого класса с трехдверным кузовом типа фургон. Серийно выпускался на Автозаводе имени Ленинского комсомола (АЗЛК) с 1968 по 1973 год. Фургон спроектирован как специализированная утилитарная версия легкового седана «Москвич-412», от которого унаследовал прогрессивный 1,5-литровый двигатель УЗАМ-412. Это было его главным достоинством и чётким отличием от внешне идентичного фургона «Москвич-433», комплектовавшегося менее мощным 1,4-литровым мотором модели 408.\\n\\nТехнические характеристики фургона делали его незаменимым помощником в службе доставки: при собственной массе в 1040 кг он обладал колёсной формулой 4х2 и был рассчитан на перевозку двух человек и до 400 кг груза по дорогам с твердым покрытием. Главной гордостью машины являлся её карбюраторный четырехцилиндровый верхнеклапанный двигатель модели «412» рабочим объемом 1478 куб. см, развивавший внушительную мощность в 75 л. с. (55 кВт) при 5800 об/мин. Двигатель агрегатировался с однодисковым сухим сцеплением и 4-ступенчатой коробкой передач. Рабочая тормозная система была колодочной, с гидравлическим приводом и — редкое для коммерческих машин тех лет решение — гидроусилителем тормозов. Передняя подвеска фургона была независимой пружинной на поперечных рычагах, а задняя опиралась на две полуэллиптические рессоры, позволяя развивать максимальную скорость 115 км/ч.\\n\\nЭволюция внешнего облика и конструкции полностью повторяла изменения базового семейства: изначально пятая дверь задка была горизонтально разделена на две половины (верхняя остекленная или глухая гофрированная поднималась наверх, нижняя откидывалась вниз). Лишь с 1972 года дверь задка стала современной единой цельной подъёмной деталью с полным остеклением, что гарантировало более надежную герметичность грузового отделения. Форма задних фонарей при этом оставалась неизменной. В декабре 1969 года модель претерпела плановый рестайлинг, получив литеры «ИЭ» (символ соответствия европейским нормам безопасности) и новую облицовку радиатора с прямоугольными фарами производства ГДР. Помимо базового фургона, завод собирал тропическую версию «434Ю», экспортный вариант «434Э» и праворульную модификацию «434П». В 1973 году сборка модели была завершена, а в 1976 году её преемником стал фургон нового поколения — «Москвич-2734».",
     "facts": [
-      "Designed for small delivery operations in urban regions",
-      "Highly sought after for rally support crews in Europe",
-      "Equipped with custom low-ratio utility rear axle"
+      "A light three-door commercial delivery van directly derived from the high-performing Moskvich-412 passenger sedan.",
+      "Equipped with the advanced 1.5-liter (1478 cc) UZAM-412 engine, producing a robust 75 hp (55 kW) at 5800 rpm.",
+      "Capable of transporting up to 400 kg of payload along with 2 passengers over hard-surfaced roads, with a curb weight of 1040 kg.",
+      "Included rare utility car features like a drum brake system with a hydraulic booster assist unit.",
+      "The split-leaf rear door (early years) was modernized in 1972 into a single fully-glazed upward-lifting door for tighter sealing.",
+      "Sought after in Western export markets ('434E'), tropical regions ('434Yu'), and produced in right-hand-drive layout ('434P').",
+      "Succeeded by the modernized Moskvich-2734 delivery van in 1976."
     ],
     "facts_ru": [
-      "Создавался для скоростной доставки мелких партий грузов в городских условиях",
-      "Использовался спортивными командами как машина технического сопровождения ралли",
-      "Имел измененное тяговое передаточное число заднего моста"
+      "Специализированный трёхдверный коммерческий фургон на агрегатах скоростного легкового седана «Москвич-412».",
+      "Оснащался высокотехнологичным 1.5-литровым (1478 куб. см) верхнеклапанным уфимским двигателем мощностью 75 л.с. (55 кВт).",
+      "При собственной массе 1040 кг был способен надежно перевозить двух человек и до 400 кг коммерческих грузов по дорогам с покрытием.",
+      "Тормозная система была гидравлической и оснащалась редким для малолитражных советских фургонов гидроусилителем.",
+      "В 1972 году двустворчатая задняя дверь заменена на цельную остекленную подъемную дверь для защиты от дорожной пыли.",
+      "Выпускался в модификациях: тропической («434Ю»), экспортной («434Э») и малосерийной праворульной («434П»).",
+      "В 1973 году покинул заводской конвейер, а его непосредственным преемником в 1976 году стал новый фургон «Москвич-2734»."
     ],
     "tags": [
       "utility",

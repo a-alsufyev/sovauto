@@ -86,7 +86,10 @@ export default function Collection() {
     const matchesSearch = displayName.includes(s) || 
                           description.includes(s) ||
                           tags.some(tag => tag.includes(s));
-    const matchesFactory = selectedFactory === "All" || v.factory === selectedFactory;
+    const matchesFactory = selectedFactory === "All" || 
+                           v.factory.toLowerCase() === selectedFactory.toLowerCase() ||
+                           (selectedFactory.toLowerCase() === "azlk" && v.factory.toLowerCase() === "mzma") ||
+                           v.factory.toLowerCase().includes(selectedFactory.toLowerCase());
     const matchesType = selectedType === "All" || v.body_type === selectedType;
     return matchesSearch && matchesFactory && matchesType;
   });
@@ -135,7 +138,7 @@ export default function Collection() {
               {FACTORIES.map(f => {
                 const fTrans = (language === 'de' || language === 'es') ? FACTORY_TRANSLATIONS[f.id]?.[language] : null;
                 const fName = fTrans?.name || (language === 'ru' ? (f.name_ru || f.name) : f.name);
-                return <option key={f.id} value={f.name}>{fName}</option>;
+                return <option key={f.id} value={f.id}>{fName}</option>;
               })}
             </select>
             

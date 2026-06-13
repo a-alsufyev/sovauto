@@ -11,8 +11,15 @@ export default function FactoryDetail() {
   const { id } = useParams();
   const { language, t } = useLanguage();
   const factory = FACTORIES.find(f => f.id === id);
-  const factoryVehicles = VEHICLES.filter(v => v.factory.toLowerCase() === factory?.name.toLowerCase() || 
-                                              v.factory.toLowerCase().includes(factory?.id.toLowerCase() || ""));
+  const factoryVehicles = VEHICLES.filter(v => {
+    if (!factory) return false;
+    const vFactory = v.factory.toLowerCase();
+    const fId = factory.id.toLowerCase();
+    const fName = factory.name.toLowerCase();
+    return vFactory === fName || 
+           vFactory.includes(fId) || 
+           (fId === "azlk" && vFactory === "mzma");
+  });
 
   if (!factory) {
     return (
